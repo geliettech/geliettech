@@ -13,7 +13,6 @@ const Home = () => {
         {/* Main Content */}
 
         {/* Footer */}
-        Home
     </div>
   )
 }

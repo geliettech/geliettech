@@ -210,7 +210,13 @@ export const Contact = () => {
                 </div>
               </div>
             </div>
-
+{/* //   const social_media = [
+//    {social_logo: "logo-instagram", social_link: "https://instagram.com/geliettech"} ,
+//    {social_logo: "logo-github", social_link: "https://github.com/geliettech"} ,
+//    {social_logo: "logo-linkedin", social_link: "https://www.linkedin.com/in/geliettech"} ,
+//    {social_logo: "logo-twitter", social_link: "https://x.com/geliettech"} ,
+//    {social_logo: "logo-medium", social_link: "https://geliettech.medium.com/"} ,
+//   ]; */}
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">

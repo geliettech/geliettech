@@ -1,151 +1,79 @@
-// import React from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import project from "../assets/images/project.png";
-// import project1 from "../assets/images/project-1.png";
-// import project2 from "../assets/images/project-2.png";
-// import project3 from "../assets/images/project-3.png";
-// import project4 from "../assets/images/project-4.png";
-// import project5 from "../assets/images/project-5.png";
-// import projectPerson from "../assets/images/projectPerson.png";
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import { Pagination, Autoplay } from "swiper/modules";
-
-// const Projects = () => {
-//   const projects = [
-//     {
-//       img: project,
-//       name: "Mystic Cookie",
-//       github_link: "https://github.com/geliettech/mystic-cookie",
-//       live_link: "https://mystic-cookie.netlify.app/",
-//     },
-//     {
-//       img: project1,
-//       name: "My Portfolio",
-//       github_link:
-//         "https://github.com/geliettech/Portfolio",
-//       live_link: "https://ogechiuhegbu.vercel.app/",
-//     },
-//     {
-//       img: project2,
-//       name: "Countries Explorer",
-//       github_link:
-//         "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
-//       live_link: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
-//     },
-//     {
-//       img: project3,
-//       name: "Profile Searcher",
-//       github_link: "https://github.com/geliettech/Profile-Search-App",
-//       live_link: "https://profile-search-app-byoge.vercel.app/",
-//     },
-//     {
-//       img: project4,
-//       name: "Baby Zoo Quiz",
-//       github_link: "https://github.com/geliettech/Baby-Zoo-Quiz",
-//       live_link: "https://baby-zoo-quiz.vercel.app/",
-//     },{
-//       img: project5,
-//       name: "Standard Calculator",
-//       github_link: "https://github.com/geliettech/standard-calculator",
-//       live_link: "https://simple-calculator-67916f.netlify.app/",
-//     },
-//   ];
-//   return (
-//     <section id="projects" className="py-10 text-white">
-//       <div className="text-center">
-//         <h3 className="text-4xl font-semibold">
-//         🚀 My <span className="text-cyan-600">Projects</span>
-//         </h3>
-//         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
-//       </div>
-//       <br />
-//       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-//         <div className="lg:w-2/3 w-full">
-//           <Swiper
-//             slidesPerView={1.2}
-//             spaceBetween={20}
-//             breakpoints={{
-//               768: {
-//                 slidesPerView: 2,
-//               },
-//             }}
-//             loop={true}
-//             autoplay={{
-//               delay: 3000,
-//             }}
-//             pagination={{
-//               clickable: true,
-//             }}
-//             modules={[Pagination, Autoplay]}
-//           >
-//             {projects.map((project_info, i) => (
-//               <SwiperSlide key={i}>
-//                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-//                   <img src={project_info.img} alt="" className="rounded-lg" />
-//                   <h3 className="text-xl my-4">{project_info.name}</h3>
-//                   <div className="flex gap-3">
-//                     <a
-//                       href={project_info.github_link}
-//                       target="_blank"
-//                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
-//                     >
-//                       Github
-//                     </a>
-//                     <a
-//                       href={project_info.live_link}
-//                       target="_blank"
-//                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
-//                     >
-//                       Live Demo
-//                     </a>
-//                   </div>
-//                 </div>
-//               </SwiperSlide>
-//             ))}
-//           </Swiper>
-//         </div>
-//         <div className="lg:block hidden">
-//           <img src={projectPerson} alt="" />
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Trovica",
+    description: "A beautiful multi-page business website using React and Tailwind.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "Framer-motion"],
+    demoUrl: "https://trovica.netlify.app/",
+    githubUrl: "https://github.com/geliettech/trovica",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Shortly",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "#https://shortly-pi-coral.vercel.app/",
+    githubUrl: "https://github.com/geliettech/shortly",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "UltraMart",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://ultramart.netlify.app/",
+    githubUrl: "https://github.com/geliettech/ultramart",
   },
+      {
+      id: 4,
+      title: "Portfolio",
+      description:
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    image: "/projects/project1.png",
+      tags: ["React", "Node.js", "Stripe"],
+      demoUrl: "https://ogechiuhegbu.vercel.app/",
+      githubUrl:
+        "https://github.com/geliettech/ogechi-uhegbu",
+    },
+    {
+       id: 5,
+      title: "Countries Explorer",
+       description:
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    image: "/projects/project2.png",
+      tags: ["React", "Node.js", "Stripe"],
+      demoUrl: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
+      githubUrl:
+        "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
+    },
+    {
+        id: 6,
+      title: "Baby Zoo Quiz",
+       description:
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    image: "/projects/project4.png",
+      tags: ["React", "Node.js", "Stripe"],
+      demoUrl: "https://baby-zoo-quiz.vercel.app/",
+      githubUrl:
+        "https://github.com/geliettech/Baby-Zoo-Quiz",
+    },
+    {
+            id: 7,
+      title: "Mystic Cookie",
+       description:
+      "Full-featured e-commerce platform with user authentication and payment processing.",
+    image: "/projects/project.png",
+      tags: ["React", "Node.js", "Stripe"],
+      demoUrl: "https://mystic-cookie.netlify.app/",
+      githubUrl:
+        "https://github.com/geliettech/mystic-cookie",
+    },
 ];
 
 export const Projects = () => {
@@ -154,7 +82,7 @@ export const Projects = () => {
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
-          Featured <span className="text-primary"> Projects </span>
+         🚀 Featured <span className="text-primary"> Projects </span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -163,9 +91,9 @@ export const Projects = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => (
+          {projects.map((project, index) => (
             <div
-              key={key}
+              key={index}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -216,7 +144,7 @@ export const Projects = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/geliettech"
           >
             Check My Github <ArrowRight size={16} />
           </a>

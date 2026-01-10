@@ -1,4 +1,3 @@
-
 import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-            <span className="text-cyan-600 opacity-0 animate-fade-in-delay-1">
+            <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
               Ogechi Juliet
             </span>
@@ -20,8 +19,10 @@ const Hero = () => {
               Uhegbu
             </span>
           </h1>
- <h4 className="md:text-2xl text-lg md:leading-normal leading-10 mt-4 font-bold text-gray-600">
-            Frontend Developer<br />Web Developer
+          <h4 className="md:text-2xl text-lg md:leading-normal leading-10 mt-4 font-bold text-gray-600">
+            Frontend Developer
+            <br />
+            Web Developer
           </h4>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I create stellar web experiences with modern technologies.

@@ -100,54 +100,53 @@ import {
   SiPython,
   SiDjango,
   SiFigma,
-  SiVscode,
-  SiSql,
   SiDocker,
 } from "react-icons/si";
 import { DiSqllite } from "react-icons/di";
+import { VscVscode } from "react-icons/vsc";
 
 const skills = [
   // Frontend
-  { icon: <SiHtml5 />, name: "HTML", level: 95, category: "frontend" },
-  { icon: <SiCss3 />, name: "CSS", level: 95, category: "frontend" },
-  { icon: <SiSass />, name: "Sass", level: 70, category: "frontend" },
+  { icon: <SiHtml5 className="h-full w-full object-contain" />, name: "HTML", level: 95, category: "frontend" },
+  { icon: <SiCss3 className="h-full w-full object-contain" />, name: "CSS", level: 95, category: "frontend" },
+  { icon: <SiSass className="h-full w-full object-contain" />, name: "Sass", level: 70, category: "frontend" },
   {
-    icon: <SiJavascript />,
+    icon: <SiJavascript className="h-full w-full object-contain" />,
     name: "JavaScript",
     level: 90,
     category: "frontend",
   },
-  { icon: <SiReact />, name: "React", level: 90, category: "frontend" },
-  { icon: <SiBootstrap />, name: "Bootstrap", level: 90, category: "frontend" },
+  { icon: <SiReact className="h-full w-full object-contain" />, name: "React", level: 90, category: "frontend" },
+  { icon: <SiBootstrap className="h-full w-full object-contain" />, name: "Bootstrap", level: 90, category: "frontend" },
   {
-    icon: <SiTypescript />,
+    icon: <SiTypescript className="h-full w-full object-contain" />,
     name: "TypeScript",
     level: 85,
     category: "frontend",
   },
   {
-    icon: <SiTailwindcss />,
+    icon: <SiTailwindcss className="h-full w-full object-contain" />,
     name: "Tailwind CSS",
     level: 90,
     category: "frontend",
   },
-  { icon: <SiMui />, name: "MaterialUI", level: 80, category: "frontend" },
-  { icon: <SiNextdotjs />, name: "Next.js", level: 80, category: "frontend" },
+  { icon: <SiMui className="h-full w-full object-contain" />, name: "MaterialUI", level: 80, category: "frontend" },
+  { icon: <SiNextdotjs className="h-full w-full object-contain" />, name: "Next.js", level: 80, category: "frontend" },
 
   // Backend
-  { icon: <SiPython />, name: "python", level: 80, category: "backend" },
-  { icon: <SiDjango />, name: "Django", level: 75, category: "backend" },
-  { icon: <DiSqllite />, name: "SQLite", level: 65, category: "backend" },
+  { icon: <SiPython className="h-full w-full object-contain" />, name: "python", level: 80, category: "backend" },
+  { icon: <SiDjango className="h-full w-full object-contain" />, name: "Django", level: 75, category: "backend" },
+  { icon: <DiSqllite className="h-full w-full object-contain" />, name: "SQLite", level: 65, category: "backend" },
 
   // CMS
-  { icon: <SiWordpress />, name: "Wordpress", level: 80, category: "CMS" },
+  { icon: <SiWordpress className="h-full w-full object-contain" />, name: "Wordpress", level: 80, category: "CMS" },
 
   // Tools
-  { icon: <SiGit />, name: "Git", level: 90, category: "tools" },
-  { icon: <SiGithub />, name: "GitHub", Level: 90, catergory: "tools" },
-  { icon: <SiDocker />, name: "Docker", level: 70, category: "tools" },
-  { icon: <SiFigma />, name: "Figma", level: 85, category: "tools" },
-  { icon: <SiVscode />, name: "VS Code", level: 95, category: "tools" },
+  { icon: <SiGit className="h-full w-full object-contain" />, name: "Git", level: 90, category: "tools" },
+  { icon: <SiGithub className="h-full w-full object-contain" />, name: "GitHub", Level: 90, catergory: "tools" },
+  { icon: <SiDocker className="h-full w-full object-contain" />, name: "Docker", level: 70, category: "tools" },
+  { icon: <SiFigma className="h-full w-full object-contain" />, name: "Figma", level: 85, category: "tools" },
+  { icon: <VscVscode className="h-full w-full object-contain" />, name: "VS Code", level: 95, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "CMS", "tools"];
@@ -174,7 +173,7 @@ const Skills = () => {
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
-                  : "bg-secondary/70 text-forefround hover:bd-secondary"
+                  : "bg-primary/10 text-forefround hover:bd-secondary"
               )}
             >
               {category}
@@ -183,14 +182,14 @@ const Skills = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredSkills.map((skill, key) => (
+          {filteredSkills.map((skill, index) => (
             <div
-              key={key}
+              key={index}
               className="bg-card p-6 rounded-lg shadow-xs card-hover"
             >
-              <div className="text-left mb-4">
+              <div className="text-left mb-4 flex items-center gap-2">
                 <h3 className="font-semibold text-lg"> {skill.name}</h3>
-                <div className="text-2xl w-6 h-6" aria-label={skill.name}>
+                <div className="w-4 h-4" aria-label={skill.name}>
                   {skill.icon}
                 </div>
               </div>

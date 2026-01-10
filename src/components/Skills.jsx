@@ -60,13 +60,13 @@
 //                 }}
 //                 className="w-20 h-20 flex items-center justify-center rounded-full"
 //               >
-//                 <div
-//                   className="text-2xl w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600"
-//                   title={skill.skillname}
-//                   aria-label={skill.skillname}
-//                 >
-//                   {skill.icon}
-//                 </div>
+// <div
+//   className="text-2xl w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600"
+//   title={skill.skillname}
+//   aria-label={skill.skillname}
+// >
+//   {skill.icon}
+// </div>
 //               </div>
 //               <p className="text-sm mt-2 font-medium text-cyan-500">{skill.skillname}</p>
 //               <p className="text-xs text-gray-300">{skill.level}</p>
@@ -76,40 +76,81 @@
 //       </div>
 //     </section>
 //   );
-  
+
 // };
 
 // export default Skills;
 
-
-
 import { useState } from "react";
 import { cn } from "../lib/utils";
+import {
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiGit,
+  SiGithub,
+  SiJavascript,
+  SiReact,
+  SiWordpress,
+  SiBootstrap,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiMui,
+  SiPython,
+  SiDjango,
+  SiFigma,
+  SiVscode,
+  SiSql,
+  SiDocker,
+} from "react-icons/si";
+import { DiSqllite } from "react-icons/di";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  { icon: <SiHtml5 />, name: "HTML", level: 95, category: "frontend" },
+  { icon: <SiCss3 />, name: "CSS", level: 95, category: "frontend" },
+  { icon: <SiSass />, name: "Sass", level: 70, category: "frontend" },
+  {
+    icon: <SiJavascript />,
+    name: "JavaScript",
+    level: 90,
+    category: "frontend",
+  },
+  { icon: <SiReact />, name: "React", level: 90, category: "frontend" },
+  { icon: <SiBootstrap />, name: "Bootstrap", level: 90, category: "frontend" },
+  {
+    icon: <SiTypescript />,
+    name: "TypeScript",
+    level: 85,
+    category: "frontend",
+  },
+  {
+    icon: <SiTailwindcss />,
+    name: "Tailwind CSS",
+    level: 90,
+    category: "frontend",
+  },
+  { icon: <SiMui />, name: "MaterialUI", level: 80, category: "frontend" },
+  { icon: <SiNextdotjs />, name: "Next.js", level: 80, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  { icon: <SiPython />, name: "python", level: 80, category: "backend" },
+  { icon: <SiDjango />, name: "Django", level: 75, category: "backend" },
+  { icon: <DiSqllite />, name: "SQLite", level: 65, category: "backend" },
+
+  // CMS
+  { icon: <SiWordpress />, name: "Wordpress", level: 80, category: "CMS" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { icon: <SiGit />, name: "Git", level: 90, category: "tools" },
+  { icon: <SiGithub />, name: "GitHub", Level: 90, catergory: "tools" },
+  { icon: <SiDocker />, name: "Docker", level: 70, category: "tools" },
+  { icon: <SiFigma />, name: "Figma", level: 85, category: "tools" },
+  { icon: <SiVscode />, name: "VS Code", level: 95, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "CMS", "tools"];
 
 const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -149,6 +190,9 @@ const Skills = () => {
             >
               <div className="text-left mb-4">
                 <h3 className="font-semibold text-lg"> {skill.name}</h3>
+                <div className="text-2xl w-6 h-6" aria-label={skill.name}>
+                  {skill.icon}
+                </div>
               </div>
               <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div

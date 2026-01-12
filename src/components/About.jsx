@@ -1,6 +1,7 @@
 import { Briefcase, Code, Laptop } from "lucide-react";
 import CV from "../assets/OGECHI_JULIET_UHEGBU_FrontendDeveloperCV.pdf";
 import aboutImg from "../assets/images/about.png";
+import aboutImg2 from "../assets/images/about2.jpg";
 
 const About = () => {
   return (
@@ -17,9 +18,9 @@ const About = () => {
               className="w-full object-cover bg-primary rounded-xl"
             />
           </div>
-          <div className="lg:w-58 h-full aboutImg">
+          <div className="w-58 h-full aboutImg">
             <img
-              src={aboutImg}
+              src={aboutImg2}
               alt=""
               className="w-full object-cover bg-primary rounded-xl"
             />

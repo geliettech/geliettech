@@ -17,7 +17,7 @@ const projects = [
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#https://shortly-pi-coral.vercel.app/",
+    demoUrl: "https://shortly-pi-coral.vercel.app/",
     githubUrl: "https://github.com/geliettech/shortly",
   },
   {
@@ -81,7 +81,6 @@ export const Projects = () => {
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          {" "}
          🚀 Featured <span className="text-primary"> Projects </span>
         </h2>
 

@@ -362,7 +362,7 @@ export const Contact = () => {
 
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 justify-center">
                 <a href="https://www.linkedin.com/in/geliettech" target="_blank">
                   <Linkedin />
                 </a>
@@ -372,6 +372,7 @@ export const Contact = () => {
                 <a href="https://instagram.com/geliettech" target="_blank">
                   <Instagram />
                 </a>
+                {/* where to code whatapp QR code image */}
               </div>
             </div>
           </div>

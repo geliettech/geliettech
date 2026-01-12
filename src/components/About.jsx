@@ -1,6 +1,7 @@
 import { Briefcase, Code, Laptop } from "lucide-react";
 import CV from "../assets/OGECHI_JULIET_UHEGBU_FrontendDeveloperCV.pdf";
 import aboutImg from "../assets/images/about.png";
+import aboutImg2 from "../assets/images/about2.jpg";
 
 const About = () => {
   return (
@@ -10,18 +11,18 @@ const About = () => {
           👩🏽‍💻 About <span className="text-primary"> Me</span>
         </h2>
         <div className="mb-6 flex justify-center items-center gap-6 md:gap-12">
-          <div className="w-58 h-full aboutImg">
+          <div className="w-64 h-76 self-center">
             <img
               src={aboutImg}
               alt=""
-              className="w-full object-cover bg-primary rounded-xl"
+              className="w-full h-full object-cover bg-primary rounded-xl"
             />
           </div>
-          <div className="lg:w-58 h-full aboutImg">
+          <div className="w-64 h-76 self-center">
             <img
-              src={aboutImg}
+              src={aboutImg2}
               alt=""
-              className="w-full object-cover bg-primary rounded-xl"
+              className="w-full h-full object-contain bg-primary rounded-xl"
             />
           </div>
         </div>

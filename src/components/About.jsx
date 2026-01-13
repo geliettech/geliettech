@@ -11,18 +11,18 @@ const About = () => {
           👩🏽‍💻 About <span className="text-primary"> Me</span>
         </h2>
         <div className="mb-6 flex justify-center items-center gap-6 md:gap-12">
-          <div className="w-58 h-full aboutImg">
+          <div className="w-58 h-68 aboutImg">
             <img
               src={aboutImg}
               alt=""
-              className="w-full object-cover bg-primary rounded-xl"
+              className="w-full h-full object-cover bg-primary rounded-xl"
             />
           </div>
-          <div className="w-58 h-full aboutImg">
+          <div className="w-58 h-68 aboutImg">
             <img
               src={aboutImg2}
               alt=""
-              className="w-full object-cover bg-primary rounded-xl"
+              className="w-full h-full object-contain bg-primary rounded-xl"
             />
           </div>
         </div>

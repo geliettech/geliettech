@@ -25,7 +25,7 @@ const projects = [
     title: "UltraMart",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
+    image: "/projects/project1.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "https://ultramart.netlify.app/",
     githubUrl: "https://github.com/geliettech/ultramart",
@@ -35,7 +35,7 @@ const projects = [
       title: "Portfolio",
       description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project1.png",
+    image: "/projects/project5.png",
       tags: ["React", "Node.js", "Stripe"],
       demoUrl: "https://ogechiuhegbu.vercel.app/",
       githubUrl:

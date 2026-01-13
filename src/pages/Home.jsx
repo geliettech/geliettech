@@ -5,7 +5,9 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import Articles from "../components/Articles";
 import Contact from "../components/Contact";
+import Recommedations from "../components/Recommedations";
 import Footer from "../components/Footer";
 
 export const Home = () => {
@@ -24,7 +26,9 @@ export const Home = () => {
         <About />
         <Skills />
         <Projects />
+        <Articles />
         <Contact />
+        <Recommedations />
       </main>
 
       {/* Footer */}

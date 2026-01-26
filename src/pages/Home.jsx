@@ -4,6 +4,7 @@ import { StarBackground } from "@/components/StarBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import Services from "../components/Services";
 import Projects from "../components/Projects";
 import Articles from "../components/Articles";
 import Contact from "../components/Contact";
@@ -25,6 +26,7 @@ export const Home = () => {
         <Hero />
         <About />
         <Skills />
+        <Services />
         <Projects />
         <Articles />
         <Contact />

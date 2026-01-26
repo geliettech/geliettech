@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Trovica",
     description: "A beautiful multi-page business website using React and Tailwind.",
-    image: "/projects/project1.png",
+    image: "/images/projects/project1.png",
     tags: ["React", "TailwindCSS", "Framer-motion"],
     demoUrl: "https://trovica.netlify.app/",
     githubUrl: "https://github.com/geliettech/trovica",
@@ -15,7 +15,7 @@ const projects = [
     title: "Shortly",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+    image: "/images/projects/project2.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
     demoUrl: "https://shortly-pi-coral.vercel.app/",
     githubUrl: "https://github.com/geliettech/shortly",
@@ -25,7 +25,7 @@ const projects = [
     title: "UltraMart",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project1.png",
+    image: "/images/projects/project1.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "https://ultramart.netlify.app/",
     githubUrl: "https://github.com/geliettech/ultramart",
@@ -35,7 +35,7 @@ const projects = [
       title: "Portfolio",
       description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project5.png",
+    image: "/images/projects/project5.png",
       tags: ["React", "Node.js", "Stripe"],
       demoUrl: "https://ogechiuhegbu.vercel.app/",
       githubUrl:
@@ -46,7 +46,7 @@ const projects = [
       title: "Countries Explorer",
        description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project2.png",
+    image: "/images/projects/project2.png",
       tags: ["React", "Node.js", "Stripe"],
       demoUrl: "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
       githubUrl:
@@ -57,7 +57,7 @@ const projects = [
       title: "Baby Zoo Quiz",
        description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project4.png",
+    image: "/images/projects/project4.png",
       tags: ["React", "Node.js", "Stripe"],
       demoUrl: "https://baby-zoo-quiz.vercel.app/",
       githubUrl:
@@ -68,7 +68,7 @@ const projects = [
       title: "Mystic Cookie",
        description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project.png",
+    image: "/images/projects/project.png",
       tags: ["React", "Node.js", "Stripe"],
       demoUrl: "https://mystic-cookie.netlify.app/",
       githubUrl:

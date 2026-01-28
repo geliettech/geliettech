@@ -103,19 +103,19 @@ export const Contact = () => {
                   href="https://www.linkedin.com/in/geliettech"
                   target="_blank"
                 >
-                  <Linkedin />
+                  <Linkedin size={20} />
                 </a>
                 <a href="https://www.x.com/geliettech" target="_blank">
-                  <Twitter />
+                  <Twitter size={20} />
                 </a>
                 <a href="https://www.instagram.com/geliettech" target="_blank">
-                  <Instagram />
+                  <Instagram size={20} />
                 </a>
                 <a href="https://www.pinterest.com/geliettech" target="_blank">
-                  <FaPinterest />
+                  <FaPinterest size={20} />
                 </a>
                 <a href="https://www.youtube.com/geliettech" target="_blank">
-                  <FaYoutube />
+                  <FaYoutube size={20} />
                 </a>
                 {/* where to code whatapp QR code image */}
               </div>

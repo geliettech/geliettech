@@ -53,7 +53,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 px-4 relative">
+    <section id="contact" className="py-24 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary">Touch</span>

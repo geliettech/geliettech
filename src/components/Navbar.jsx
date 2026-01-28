@@ -47,7 +47,7 @@ const Navbar = () => {
             <a
               key={i}
               href={menu.link}
-              className="hover:text-cyan-600 transition"
+              className="hover:text-primary transition"
             >
               {menu.name}
             </a>

@@ -32,7 +32,7 @@ const ThemeToggle = () => {
     return (
         <button onClick={toogleTheme} className={cn("max-sm:hidden transition-colors duration-300",
         "focus:outline-hidden")}>
-            {isDarkMode ? <Sun className="h-6 w-6 text-yellow-600" /> : <Moon className="h-6 w-6 text-cyan-600" />}
+            {isDarkMode ? <Sun className="h-6 w-6 text-yellow-600" /> : <Moon className="h-6 w-6 text-primary" />}
         </button>
     )
 }

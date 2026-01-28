@@ -4,7 +4,7 @@ const currentYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer className="py-12 px-4 relative bg-card  border-t border-border">
+    <footer className="py-12 relative bg-card  border-t border-border">
       <div className="container flex flex-wrap justify-between items-center">
         <p className="text-sm text-muted-foreground">
         &copy; 2023 - {currentYear} ogechiuhegbu.vercel.app. All rights

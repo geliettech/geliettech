@@ -13,7 +13,7 @@ const projects = [
     image: "/images/projects/project.png",
     tags: ["React", "TailwindCSS"],
     demoUrl: "https://mystic-cookie.netlify.app/",
-    githubUrl: "https://mystic-cookie.netlify.app/",
+    githubUrl: "",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const projects = [
     image: "/images/projects/project5.png",
     tags: ["TailwindCSS", "framer-motion", "React"],
     demoUrl: "https://ogechiuhegbu.vercel.app/",
-    githubUrl: "https://github.com/geliettech/Portfolio",
+    githubUrl: "",
   },
   {
     id: 3,

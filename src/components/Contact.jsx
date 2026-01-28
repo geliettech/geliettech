@@ -1,12 +1,5 @@
-import {
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Send,
-  Twitter, Pinterest, 
-  Youtube,
-} from "lucide-react";
+import { Instagram, Linkedin, Mail, MapPin, Send, Twitter } from "lucide-react";
+import { FaPinterest, FaYoutube } from "react-icons/fa6";
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
@@ -98,9 +91,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">
-                    Nigeria
-                  </p>
+                  <p className="text-muted-foreground">Nigeria</p>
                 </div>
               </div>
             </div>
@@ -108,20 +99,23 @@ export const Contact = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="https://www.linkedin.com/in/geliettech" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/geliettech"
+                  target="_blank"
+                >
                   <Linkedin />
                 </a>
-                <a href="https://x.com/geliettech" target="_blank">
+                <a href="https://www.x.com/geliettech" target="_blank">
                   <Twitter />
                 </a>
-                <a href="https://instagram.com/geliettech" target="_blank">
+                <a href="https://www.instagram.com/geliettech" target="_blank">
                   <Instagram />
                 </a>
-                <a href="https://pinterest.com/geliettech" target="_blank">
-                  <Pinterest />
+                <a href="https://www.pinterest.com/geliettech" target="_blank">
+                  <FaPinterest />
                 </a>
-                <a href="https://youtube.com/geliettech" target="_blank">
-                  <Youtube />
+                <a href="https://www.youtube.com/geliettech" target="_blank">
+                  <FaYoutube />
                 </a>
                 {/* where to code whatapp QR code image */}
               </div>
@@ -190,7 +184,7 @@ export const Contact = () => {
                 disabled={isSubmitting}
                 className={cn(
                   "cosmic-button w-full flex items-center justify-center gap-2",
-                  isSubmitting && "opacity-60 cursor-not-allowed"
+                  isSubmitting && "opacity-60 cursor-not-allowed",
                 )}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}

@@ -69,11 +69,11 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-screen w-2/3 max-w-xs bg-background text-muted-foreground px-8 py-10 transform transition-transform duration-300 md:hidden z-999 ${
+        className={`fixed top-0 right-0 h-screen w-2/3 max-w-xs bg-background text-muted-foreground p-8 transform transition-transform duration-300 md:hidden z-999 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex flex-col justify-center h-full gap-8 text-lg font-medium">
+        <div className="flex flex-col justify-center items-center h-full gap-8 text-base font-medium">
           {menuLinks.map((menu, i) => (
             <a
               key={i}
@@ -84,9 +84,8 @@ const Navbar = () => {
               {menu.name}
             </a>
           ))}
-          
-        </div>
         <ThemeToggle />
+        </div>
       </div>
     </nav>
   );

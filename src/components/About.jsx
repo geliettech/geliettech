@@ -11,14 +11,14 @@ const About = () => {
           👩🏽‍💻 About <span className="text-primary"> Me</span>
         </h2>
         <div className="mb-6 flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
-          <div className="w-68 h-64 aboutImg">
+          <div className="w-68 h-64 opacity-0 animate-fade-in-delay-1">
             <img
               src={Profile}
               alt="profile"
               className="w-full h-full object-contain bg-primary rounded-xl"
             />
           </div>
-          <div className="w-68 h-64 aboutImg">
+          <div className="w-68 h-64 opacity-0 animate-fade-in-delay-2">
             <img
               src={WorkSpace}
               alt="workspace"

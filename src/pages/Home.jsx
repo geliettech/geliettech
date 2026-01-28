@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-// import ThemeToggle from "../components/ThemeToggle";
+// import Bot from "../components/Bot"
 import { StarBackground } from "@/components/StarBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -14,23 +14,25 @@ import Footer from "../components/Footer";
 export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-      {/* Theme Toggle */}
-      {/* <ThemeToggle /> */}
       {/* Background Effects */}
       <StarBackground />
 
       {/* Navbar */}
       <Navbar />
+
+      {/* chat bot */}
+      {/* <Bot /> */}
+
       {/* Main Content */}
       <main>
         <Hero />
         <About />
         <Skills />
-        <Services />
+        {/* <Services /> */}
         <Projects />
-        <Articles />
+        {/* <Articles /> */}
         <Contact />
-        <Recommedations />
+        {/* <Recommedations /> */}
       </main>
 
       {/* Footer */}

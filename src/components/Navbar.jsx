@@ -11,10 +11,10 @@ const Navbar = () => {
     { name: "HOME", link: "#hero" },
     { name: "ABOUT", link: "#about" },
     { name: "SKILLS", link: "#skills" },
-    { name: "SERVICES", link: "#services" },
+    // { name: "SERVICES", link: "#services" },
     { name: "PROJECTS", link: "#projects" },
-    { name: "ARTICLES", link: "#articles" },
-    { name: "RECOMMEDATIONS", link: "#recommedations" },
+    // { name: "ARTICLES", link: "#articles" },
+    // { name: "RECOMMEDATIONS", link: "#recommedations" },
     { name: "CONTACT", link: "#contact" },
   ];
 
@@ -35,8 +35,7 @@ const Navbar = () => {
           : "bg-transparent text-muted-foreground"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 lg:px-8 h-16">
-
+      <div className="container flex items-center justify-between h-16">
         {/* Logo */}
         <h4 className="text-3xl font-bold text-glow">
           Geliet<span className="text-primary ml-1">Tech</span>

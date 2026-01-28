@@ -32,7 +32,7 @@ const Navbar = () => {
       className={`fixed top-0 left-0 w-full z-999 ${
         sticky
           ? "bg-white/60 text-muted-foreground"
-          : "bg-transparent text-muted-foreground"
+          : "bg-muted-background text-muted-foreground"
       }`}
     >
       <div className="container flex items-center justify-between h-16">
@@ -58,7 +58,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <button
           className={`md:hidden text-3xl z-1000 ${
-            open ? "text-gray-900" : "text-gray-100"
+            open ? "text-muted-foreground" : "text-muted-foreground"
           }`}
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
@@ -69,7 +69,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-screen w-2/3 max-w-xs bg-white text-gray-900 px-8 py-10 transform transition-transform duration-300 md:hidden z-999 ${
+        className={`fixed top-0 right-0 h-screen w-2/3 max-w-xs bg-background text-muted-foreground px-8 py-10 transform transition-transform duration-300 md:hidden z-999 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -79,13 +79,14 @@ const Navbar = () => {
               key={i}
               href={menu.link}
               onClick={() => setOpen(false)}
-              className="hover:text-cyan-600 transition"
+              className="hover:text-primary transition"
             >
               {menu.name}
             </a>
           ))}
-          <ThemeToggle />
+          
         </div>
+        <ThemeToggle />
       </div>
     </nav>
   );

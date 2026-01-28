@@ -10,7 +10,7 @@ const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           👩🏽‍💻 About <span className="text-primary"> Me</span>
         </h2>
-        <div className="mb-6 flex justify-center items-center gap-6 md:gap-12">
+        <div className="mb-6 flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
           <div className="w-68 h-64 aboutImg">
             <img
               src={Profile}

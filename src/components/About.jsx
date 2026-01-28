@@ -1,7 +1,7 @@
 import { Briefcase, Code, Laptop } from "lucide-react";
 import CV from "../assets/OGECHI_JULIET_UHEGBU_FrontendDeveloperCV.pdf";
-import Profile from "../assets/img/images/about/profile.jpg";
-import WorkSpace from "../assets/img/images/about/workspace.jpg";
+import Profile from "../assets/img/about/profile.jpg";
+import WorkSpace from "../assets/img/about/workspace.jpg";
 
 const About = () => {
   return (

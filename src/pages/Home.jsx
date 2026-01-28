@@ -4,11 +4,11 @@ import { StarBackground } from "@/components/StarBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
-import Services from "../components/Services";
+// import Services from "../components/Services";
 import Projects from "../components/Projects";
-import Articles from "../components/Articles";
+// import Articles from "../components/Articles";
 import Contact from "../components/Contact";
-import Recommedations from "../components/Recommedations";
+// import Recommedations from "../components/Recommedations";
 import Footer from "../components/Footer";
 
 export const Home = () => {

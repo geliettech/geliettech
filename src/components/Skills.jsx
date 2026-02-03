@@ -119,11 +119,11 @@ const skills = [
     level: 90,
     category: "tools",
   },
-  {
+    {
     icon: <SiGithub className="h-full w-full object-contain" />,
     name: "GitHub",
-    Level: 90,
-    catergory: "tools",
+    level: 90,
+    category: "tools",
   },
   {
     icon: <SiFigma className="h-full w-full object-contain" />,

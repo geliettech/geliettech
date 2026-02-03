@@ -36,7 +36,7 @@ const About = () => {
           👩🏽‍💻 About <span className="text-primary"> Me</span>
         </h2>
         <div className="mb-6 flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
-          <div className="w-88 h-84 opacity-0 animate-fade-in-delay-1">
+          <div className="w-74 h-74 opacity-0 animate-fade-in-delay-1">
             <img
               key={slideIndex}
               src={currentSlide.image}

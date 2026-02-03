@@ -2,8 +2,33 @@ import { Briefcase, Code, Laptop } from "lucide-react";
 import CV from "../assets/OGECHI_JULIET_UHEGBU_FrontendDeveloperCV.pdf";
 import Profile from "../assets/img/about/profile.jpg";
 import WorkSpace from "../assets/img/about/workspace.jpg";
+import { useEffect, useState } from "react";
+
+const slides = [
+  {
+    image: Profile,
+    alt: "profile",
+  },
+  {
+    image: WorkSpace,
+    alt: "workspace",
+  },
+];
 
 const About = () => {
+  const [slideIndex, setSlideIndex] = useState(0);
+
+  // Auto slide
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSlideIndex((prev) => (prev + 1) % slides.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const currentSlide = slides[slideIndex];
+
   return (
     <section id="about" className="py-24 relative">
       <div className="container mx-auto max-w-5xl">
@@ -13,19 +38,14 @@ const About = () => {
         <div className="mb-6 flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
           <div className="w-68 h-64 opacity-0 animate-fade-in-delay-1">
             <img
-              src={Profile}
-              alt="profile"
-              className="w-full h-full object-contain bg-primary rounded-xl"
-            />
-          </div>
-          <div className="w-68 h-64 opacity-0 animate-fade-in-delay-2">
-            <img
-              src={WorkSpace}
-              alt="workspace"
+              key={slideIndex}
+              src={currentSlide.image}
+              alt={currentSlide.alt}
               className="w-full h-full object-contain bg-primary rounded-xl"
             />
           </div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">

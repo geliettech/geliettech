@@ -7,30 +7,60 @@ import { Pagination, Autoplay } from "swiper/modules";
 const projects = [
   {
     id: 1,
+    title: "Shortly",
+    description:
+      "Interactive URL shortening web app that allows users to shorten long URLs and copy the shortened links easily.",
+    image: "/images/projects/project_1.jpg",
+    tags: ["TailwindCSS", "React", "Typescript"],
+    demoUrl: "https://shortly-pi-coral.vercel.app/",
+    githubUrl: "https://github.com/geliettech/shortly",
+  },
+  {
+    id: 2,
+    title: "Trovica",
+    description:
+      "Responsive Multi-page business website for a fictional company Trovica, featuring services, about us, and contact pages.",
+    image: "/images/projects/project_2.png",
+    tags: ["TailwindCSS", "framer-motion", "React"],
+    demoUrl: "https://trovica.netlify.app/",
+    githubUrl: "https://github.com/geliettech/trovica",
+  },
+  {
+    id: 3,
+    title: "UltraMart",
+    description:
+      "Intractive e-commerce web application with product browsing, shopping cart, and user authentication features.",
+    image: "/images/projects/project_3.png",
+    tags: ["TailwindCSS", , "React", "Redux"],
+    demoUrl: "https://ultramart.netlify.app/",
+    githubUrl: "https://github.com/geliettech/ultramart",
+  },
+  {
+    id: 4,
+    title: "My Portfolio",
+    description:
+      "Responsive portfolio website showcasing my skills, and experience with smooth animations and interactive elements.",
+    image: "/images/projects/project_4.png",
+    tags: ["TailwindCSS", "framer-motion", "React"],
+    demoUrl: "https://ogechiuhegbu.vercel.app/",
+    githubUrl: "https://github.com-/geliettech/ogechi-uhegbu",
+  },
+  {
+    id: 5,
     title: "Mystic Cookie",
     description:
       "Responsive Advice Generator app that generates random advice slips using an external API.",
-    image: "/images/projects/project.png",
+    image: "/images/projects/project_5.png",
     tags: ["React", "TailwindCSS"],
     demoUrl: "https://mystic-cookie.netlify.app/",
     githubUrl: "https://github.com/geliettech/mystic-cookie",
   },
   {
-    id: 2,
-    title: "My Portfolio",
-    description:
-      "Responsive portfolio website showcasing my skills, and experience with smooth animations and interactive elements.",
-    image: "/images/projects/project5.png",
-    tags: ["TailwindCSS", "framer-motion", "React"],
-    demoUrl: "https://ogechiuhegbu.vercel.app/",
-    githubUrl: "https://github.com/geliettech/ogechi-uhegbu",
-  },
-  {
-    id: 3,
+    id: 6,
     title: "Countries Explorer",
     description:
       "Responsive web app to explore countries data with search, filter, detailed views and Dark theme toogle.",
-    image: "/images/projects/project2.png",
+    image: "/images/projects/project_6.png",
     tags: ["React", "MaterialUI"],
     demoUrl:
       "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
@@ -38,24 +68,14 @@ const projects = [
       "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
   },
   {
-    id: 4,
+    id: 7,
     title: "Baby Zoo Quiz",
     description:
       "Interactive Quiz app that tests users knowledge on baby animals with score tracking and instant feedback.",
-    image: "/images/projects/project4.png",
+    image: "/images/projects/project_7.png",
     tags: ["JavaScript", "HTML", "CSS"],
     demoUrl: "https://baby-zoo-quiz.vercel.app/",
     githubUrl: "https://github.com/geliettech/Baby-Zoo-Quiz",
-  },
-  {
-    id: 5,
-    title: "Standard Calculator",
-    description:
-      "Interactive Standard Calculator app that performs basic arithmetic operations with a user-friendly interface.",
-    image: "/images/projects/project3.jpg",
-    tags: ["HTML", "CSS", "Vanilla JavaScript"],
-    demoUrl: "https://simple-calculator-67916f.netlify.app/",
-    githubUrl: "https://github.com/geliettech/standard-calculator",
   },
 ];
 
@@ -76,7 +96,7 @@ export const Projects = () => {
           slidesPerView={1}
           spaceBetween={20}
           breakpoints={{
-            425: {slidesPerView: 1},
+            425: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}

@@ -9,9 +9,9 @@ const projects = [
     id: 1,
     title: "Shortly",
     description:
-      "Interactive URL shortening web app that allows users to shorten long URLs and copy the shortened links easily.",
+      "Responsive URL shortening landing page with links shorten, instant copy, and localStorage persistence.",
     image: "/images/projects/project_1.jpg",
-    tags: ["TailwindCSS", "React", "Typescript"],
+    tags: ["Typescript", "React", "TailwindCSS"],
     demoUrl: "https://shortly-pi-coral.vercel.app/",
     githubUrl: "https://github.com/geliettech/shortly",
   },

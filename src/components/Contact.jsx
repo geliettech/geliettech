@@ -4,6 +4,7 @@ import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import Profile from "../assets/img/whatsappQRCode.jpg";
 
 const INITIAL_VALUE = {
   fullname: "",
@@ -91,33 +92,49 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">Nigeria</p>
+                  <p className="text-muted-foreground">Lagos, Nigeria</p>
                 </div>
               </div>
             </div>
 
             <div className="pt-8">
               <h4 className="font-medium mb-4">Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a
-                  href="https://www.linkedin.com/in/geliettech"
-                  target="_blank"
-                >
-                  <Linkedin size={20} />
-                </a>
-                <a href="https://www.x.com/geliettech" target="_blank">
-                  <Twitter size={20} />
-                </a>
-                <a href="https://www.instagram.com/geliettech" target="_blank">
-                  <Instagram size={20} />
-                </a>
-                <a href="https://www.pinterest.com/geliettech" target="_blank">
-                  <FaPinterest size={20} />
-                </a>
-                <a href="https://www.youtube.com/geliettech" target="_blank">
-                  <FaYoutube size={20} />
-                </a>
-                {/* where to code whatapp QR code image */}
+              <div className="flex justify-center gap-12 items-center">
+                <div className="flex flex-col space-y-4">
+                  <a
+                    href="https://www.linkedin.com/in/geliettech"
+                    target="_blank"
+                  >
+                    <Linkedin size={20} />
+                  </a>
+                  <a href="https://www.x.com/geliettech" target="_blank">
+                    <Twitter size={20} />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/geliettech"
+                    target="_blank"
+                  >
+                    <Instagram size={20} />
+                  </a>
+                  <a
+                    href="https://www.pinterest.com/geliettech"
+                    target="_blank"
+                  >
+                    <FaPinterest size={20} />
+                  </a>
+                  <a href="https://www.youtube.com/geliettech" target="_blank">
+                    <FaYoutube size={20} />
+                  </a>
+                </div>
+
+                {/*whatapp QR code image */}
+                <div className="w-42 h-42 opacity-0 animate-fade-in-delay-1">
+                  <img
+                    src={Profile}
+                    alt="Profile"
+                    className="w-full h-full object-cover bg-primary rounded-xl"
+                  />
+                </div>
               </div>
             </div>
           </div>

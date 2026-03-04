@@ -25,16 +25,16 @@ const projects = [
     demoUrl: "https://trovica.netlify.app/",
     githubUrl: "https://github.com/geliettech/trovica",
   },
-  {
-    id: 3,
-    title: "UltraMart",
-    description:
-      "Intractive e-commerce web application with product browsing, shopping cart, and user authentication features.",
-    image: "/images/projects/project_3.png",
-    tags: ["TailwindCSS", , "React", "Redux"],
-    demoUrl: "https://ultramart.netlify.app/",
-    githubUrl: "https://github.com/geliettech/ultramart",
-  },
+  // {
+  //   id: 3,
+  //   title: "UltraMart",
+  //   description:
+  //     "Intractive e-commerce web application with product browsing, shopping cart, and user authentication features.",
+  //   image: "/images/projects/project_3.png",
+  //   tags: ["TailwindCSS", , "React", "Redux"],
+  //   demoUrl: "https://ultramart.netlify.app/",
+  //   githubUrl: "https://github.com/geliettech/ultramart",
+  // },
   {
     id: 4,
     title: "My Portfolio",

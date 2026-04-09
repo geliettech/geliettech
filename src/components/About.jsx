@@ -28,18 +28,15 @@ const About = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 3 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With B.Sc. in Computer Science and Informatics and 3 years hands-on experience building responsive, accessible, and performance-optimized web applications using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I’ve worked with startups and clients to develop real-world solutions using React, Next.js, Django, Tailwind CSS, WordPress, and Firebase, and modern UI systems.
             </p>
-
+            <p className="text-muted-foreground">
+              I focus on writing clean, maintainable code and creating user experiences that solve real problems.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 Get In Touch

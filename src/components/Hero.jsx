@@ -29,9 +29,7 @@ const Hero = () => {
           </h4>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
+            I specialize in helping Individuals, Brands, Businesses in turning their ideas into high-performing Web Applications using React, Next.js, Django, WordPress, and modern UI systems. Open for Collaborations.  
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">

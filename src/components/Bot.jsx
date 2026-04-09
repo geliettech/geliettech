@@ -54,7 +54,7 @@ const steps = [
   },
   {
     id: 9,
-    message: "@ogechi.uhegbu@outlook.com",
+    message: "@julietogechi27@gmail.com",
     trigger: 5,
   },
 ];

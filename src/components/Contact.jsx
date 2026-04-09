@@ -81,7 +81,7 @@ export const Contact = () => {
                     href="mailto:ogechi.uhegbu@outlook.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    ogechi.uhegbu@outlook.com
+                    julietogechi27@gmail.com
                   </a>
                 </div>
               </div>

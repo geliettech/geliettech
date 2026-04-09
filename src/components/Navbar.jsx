@@ -11,10 +11,11 @@ const Navbar = () => {
     { name: "HOME", link: "#hero" },
     { name: "ABOUT", link: "#about" },
     { name: "SKILLS", link: "#skills" },
-    // { name: "SERVICES", link: "#services" },
+    { name: "EXPERIENCES", link: "#experiences" },
     { name: "PROJECTS", link: "#projects" },
-    // { name: "ARTICLES", link: "#articles" },
-    // { name: "RECOMMEDATIONS", link: "#recommedations" },
+    { name: "RECOMMEDATIONS", link: "#recommedations" },
+    { name: "ARTICLES", link: "#articles" },
+    { name: "WORKFLOW", link: "#workflow" },
     { name: "CONTACT", link: "#contact" },
   ];
 

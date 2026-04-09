@@ -96,8 +96,8 @@ export const Projects = () => {
           className=""
         >
           {projects.map((project) => (
-            <SwiperSlide key={project.id} className="h-full">
-              <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+            <SwiperSlide className="h-full">
+              <div key={project.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                 <div className="h-48 overflow-hidden">
                   <img
                     src={project.image}

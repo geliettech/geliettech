@@ -268,7 +268,7 @@ export const meteor = {
 };
 
 // DELAYED FADE INS (replaces --animate-fade-in-delay-*)
-export const fadeInDelay = (delay: number) => ({
+export const fadeInDelay = (delay) => ({
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,

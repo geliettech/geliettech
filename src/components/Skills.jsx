@@ -2,7 +2,6 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 import {
   SiHtml5,
-  SiCss3,
   SiSass,
   SiGit,
   SiGithub,
@@ -18,8 +17,10 @@ import {
   SiDjango,
   SiFigma,
 } from "react-icons/si";
+import { FaCss3 } from "react-icons/fa6";
 import { DiSqllite } from "react-icons/di";
 import { VscVscode } from "react-icons/vsc";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const skills = [
   // Frontend
@@ -30,7 +31,7 @@ const skills = [
     category: "frontend",
   },
   {
-    icon: <SiCss3 className="h-full w-full object-contain" />,
+    icon: <FaCss3 className="h-full w-full object-contain" />,
     name: "CSS",
     level: 95,
     category: "frontend",
@@ -103,6 +104,13 @@ const skills = [
     level: 65,
     category: "backend",
   },
+  {
+    icon: <IoLogoFirebase className="h-full w-full object-contain" />,
+    name: "Firebase",
+    level: 70,
+    category: "backend",
+  },
+  
 
   // CMS
   {

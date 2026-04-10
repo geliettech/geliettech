@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { FaArrowRight, FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -6,61 +6,30 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const projects = [
   {
-    id: 1,
+    id: "A7F3K9X2",
+    title: "Trovica",
+    description: "Interactive modern multi-page digital agency website that boosts business online visibility and engagement.",
+    image: "/images/projects/trovica.png",
+    tags: ["React", "TailwindCSS", "Framer Motion"],
+    demoUrl: "https://trovica.netlify.app/",
+    githubUrl: "https://github.com/geliettech/trovica",
+  },
+  {
+    id: "ID-48Q7Z1",
     title: "Shortly",
     description:
       "Responsive URL shortening landing page with links shorten, instant copy, and localStorage persistence.",
-    image: "/images/projects/project_1.jpg",
+    image: "/images/projects/Shortly.jpg",
     tags: ["Typescript", "React", "TailwindCSS"],
     demoUrl: "https://shortly-pi-coral.vercel.app/",
     githubUrl: "https://github.com/geliettech/shortly",
   },
   {
-    id: 2,
-    title: "Trovica",
-    description:
-      "Responsive Multi-page business website for a fictional company Trovica, featuring services, about us, and contact pages.",
-    image: "/images/projects/project_2.png",
-    tags: ["TailwindCSS", "framer-motion", "React"],
-    demoUrl: "https://trovica.netlify.app/",
-    githubUrl: "https://github.com/geliettech/trovica",
-  },
-  // {
-  //   id: 3,
-  //   title: "UltraMart",
-  //   description:
-  //     "Intractive e-commerce web application with product browsing, shopping cart, and user authentication features.",
-  //   image: "/images/projects/project_3.png",
-  //   tags: ["TailwindCSS", , "React", "Redux"],
-  //   demoUrl: "https://ultramart.netlify.app/",
-  //   githubUrl: "https://github.com/geliettech/ultramart",
-  // },
-  {
-    id: 4,
-    title: "My Portfolio",
-    description:
-      "Responsive portfolio website showcasing my skills, and experience with smooth animations and interactive elements.",
-    image: "/images/projects/project_4.png",
-    tags: ["TailwindCSS", "framer-motion", "React"],
-    demoUrl: "https://ogechiuhegbu.vercel.app/",
-    githubUrl: "https://github.com-/geliettech/ogechi-uhegbu",
-  },
-  {
-    id: 5,
-    title: "Mystic Cookie",
-    description:
-      "Responsive Advice Generator app that generates random advice slips using an external API.",
-    image: "/images/projects/project_5.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "https://mystic-cookie.netlify.app/",
-    githubUrl: "https://github.com/geliettech/mystic-cookie",
-  },
-  {
-    id: 6,
+    id: "ID-920174",
     title: "Countries Explorer",
     description:
       "Responsive web app to explore countries data with search, filter, detailed views and Dark theme toogle.",
-    image: "/images/projects/project_6.png",
+    image: "/images/projects/rest-countries.png",
     tags: ["React", "MaterialUI"],
     demoUrl:
       "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
@@ -68,11 +37,31 @@ const projects = [
       "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
   },
   {
-    id: 7,
+    id: "USR-9B2L6M",
+    title: "My Portfolio",
+    description:
+      "Responsive portfolio website showcasing my skills, and experience with smooth animations and interactive elements.",
+    image: "/images/projects/ogechiuhegbu.png",
+    tags: ["TailwindCSS", "framer-motion", "React"],
+    demoUrl: "https://ogechiuhegbu.vercel.app/",
+    githubUrl: "https://github.com-/geliettech/ogechi-uhegbu",
+  },
+  {
+    id: "X5T8P2Q9",
+    title: "Mystic Cookie",
+    description:
+      "Responsive Advice Generator app that generates random advice slips using an external API.",
+    image: "/images/projects/mystic-cookie.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "https://mystic-cookie.netlify.app/",
+    githubUrl: "https://github.com/geliettech/mystic-cookie",
+  },
+  {
+    id: "R8P4Z6L2",
     title: "Baby Zoo Quiz",
     description:
       "Interactive Quiz app that tests users knowledge on baby animals with score tracking and instant feedback.",
-    image: "/images/projects/project_7.png",
+    image: "/images/projects/baby-zoo-quiz.png",
     tags: ["JavaScript", "HTML", "CSS"],
     demoUrl: "https://baby-zoo-quiz.vercel.app/",
     githubUrl: "https://github.com/geliettech/Baby-Zoo-Quiz",
@@ -113,14 +102,14 @@ export const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
 
                 <div className="p-6">
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.map((tag) => (
-                      <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/10 text-muted-foreground">
+                    {project.tags.map((tag, index) => (
+                      <span key={index} className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/10 text-muted-foreground">
                         {tag}
                       </span>
                     ))}
@@ -139,14 +128,14 @@ export const Projects = () => {
                         target="_blank"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
-                        <ExternalLink size={20} />
+                        <FaArrowUpRightFromSquare size={20} />
                       </a>
                       <a
                         href={project.githubUrl}
                         target="_blank"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
-                        <Github size={20} />
+                        <FaGithub size={20} />
                       </a>
                     </div>
                   </div>
@@ -162,7 +151,7 @@ export const Projects = () => {
             target="_blank"
             href="https://github.com/geliettech"
           >
-            Check My Github <ArrowRight size={16} />
+            Check My Github <FaArrowRight size={16} />
           </a>
         </div>
       </div>

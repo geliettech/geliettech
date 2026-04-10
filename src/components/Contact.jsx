@@ -1,5 +1,4 @@
-import { Instagram, Linkedin, Mail, MapPin, Send, Twitter } from "lucide-react";
-import { FaPinterest, FaYoutube } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaEnvelope, FaMapPin, FaPaperPlane, FaXTwitter, FaPinterest, FaYoutube } from "react-icons/fa6";
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
@@ -73,7 +72,7 @@ export const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-6 w-6 text-primary" />
+                  <FaEnvelope className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
@@ -81,14 +80,14 @@ export const Contact = () => {
                     href="mailto:ogechi.uhegbu@outlook.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    ogechi.uhegbu@outlook.com
+                    julietogechi27@gmail.com
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <MapPin className="h-6 w-6 text-primary" />
+                  <FaMapPin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
@@ -105,16 +104,16 @@ export const Contact = () => {
                     href="https://www.linkedin.com/in/geliettech"
                     target="_blank"
                   >
-                    <Linkedin size={20} />
+                    <FaLinkedin size={20} />
                   </a>
                   <a href="https://www.x.com/geliettech" target="_blank">
-                    <Twitter size={20} />
+                    <FaXTwitter size={20} />
                   </a>
                   <a
                     href="https://www.instagram.com/geliettech"
                     target="_blank"
                   >
-                    <Instagram size={20} />
+                    <FaInstagram size={20} />
                   </a>
                   <a
                     href="https://www.pinterest.com/geliettech"
@@ -205,7 +204,7 @@ export const Contact = () => {
                 )}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
-                <Send size={16} />
+                <FaPaperPlane size={16} />
               </button>
             </form>
           </div>

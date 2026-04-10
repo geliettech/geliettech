@@ -1,15 +1,14 @@
 import Navbar from "../components/Navbar";
-// import Bot from "../components/Bot"
 import { StarBackground } from "@/components/StarBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
-// import Services from "../components/Services";
 import Projects from "../components/Projects";
-// import Articles from "../components/Articles";
+import Article from "../components/Article";
 import Contact from "../components/Contact";
-// import Recommedations from "../components/Recommedations";
+import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import Experience from "../components/Experience";
 
 export const Home = () => {
   return (
@@ -20,19 +19,16 @@ export const Home = () => {
       {/* Navbar */}
       <Navbar />
 
-      {/* chat bot */}
-      {/* <Bot /> */}
-
       {/* Main Content */}
       <main>
         <Hero />
         <About />
         <Skills />
-        {/* <Services /> */}
+        <Experience />
         <Projects />
-        {/* <Articles /> */}
+        <Article />
+        <Testimonials />
         <Contact />
-        {/* <Recommedations /> */}
       </main>
 
       {/* Footer */}

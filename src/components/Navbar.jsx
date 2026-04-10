@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { X } from "lucide-react";
+import { IoIosClose } from "react-icons/io";
 import { RiMenu4Fill } from "react-icons/ri";
 import ThemeToggle from "../components/ThemeToggle";
 
@@ -11,10 +11,10 @@ const Navbar = () => {
     { name: "HOME", link: "#hero" },
     { name: "ABOUT", link: "#about" },
     { name: "SKILLS", link: "#skills" },
-    // { name: "SERVICES", link: "#services" },
+    { name: "EXPERIENCES", link: "#experiences" },
     { name: "PROJECTS", link: "#projects" },
-    // { name: "ARTICLES", link: "#articles" },
-    // { name: "RECOMMEDATIONS", link: "#recommedations" },
+    { name: "ARTICLES", link: "#articles" },
+    { name: "TESTIMONIALS", link: "#testimonials" },
     { name: "CONTACT", link: "#contact" },
   ];
 
@@ -42,7 +42,7 @@ const Navbar = () => {
         </h4>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-6 text-sm font-medium">
+        <div className="hidden lg:flex items-center gap-6 text-sm font-medium">
           {menuLinks.map((menu, i) => (
             <a
               key={i}
@@ -57,13 +57,13 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className={`md:hidden text-3xl z-1000 ${
+          className={`lg:hidden text-3xl z-1000 ${
             open ? "text-muted-foreground" : "text-muted-foreground"
           }`}
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
         >
-          {open ? <X size={24} /> : <RiMenu4Fill size={24} />}
+          {open ? <IoIosClose size={24} /> : <RiMenu4Fill size={24} />}
         </button>
       </div>
 

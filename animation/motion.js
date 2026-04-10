@@ -210,3 +210,73 @@ export const mobileMenu = {
   },
   exit: { opacity: 0, x: 100 },
 };
+
+
+
+// ===============================
+// FRAMER MOTION: CSS/Tailwind ANIMATIONS CONVERTED
+// ===============================
+
+// FLOAT (replaces --animate-float)
+export const float = {
+  animate: {
+    y: [0, -10, 0],
+  },
+  transition: {
+    duration: 6,
+    repeat: Infinity,
+    ease: "easeInOut",
+  },
+};
+
+// PULSE SUBTLE (replaces --animate-pulse-subtle)
+export const pulseSubtle = {
+  animate: {
+    opacity: [1, 0.8, 1],
+  },
+  transition: {
+    duration: 4,
+    repeat: Infinity,
+    ease: "easeInOut",
+  },
+};
+
+// FADE IN (replaces CSS fade-in keyframes)
+export const fadeInSimple = {
+  animate: {
+    opacity: [0, 1],
+    y: [20, 0],
+  },
+  transition: {
+    duration: 0.7,
+    ease: "easeOut",
+  },
+};
+
+// METEOR (replaces --animate-meteor)
+export const meteor = {
+  animate: {
+    rotate: 215,
+    x: [-0, -500],
+    opacity: [1, 0],
+  },
+  transition: {
+    duration: 5,
+    ease: "linear",
+    repeat: Infinity,
+  },
+};
+
+// DELAYED FADE INS (replaces --animate-fade-in-delay-*)
+export const fadeInDelay = (delay: number) => ({
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.7,
+      delay,
+      ease: "easeOut",
+    },
+  },
+});

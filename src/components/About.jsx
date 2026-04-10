@@ -1,4 +1,4 @@
-import { Briefcase, Code, Laptop } from "lucide-react";
+import {  FaBriefcase, FaCode, FaLaptop } from "react-icons/fa6";
 import CV from "../assets/OGECHI_JULIET_UHEGBU_FrontendDeveloper.pdf";
 import Profile from "../assets/img/about/profile.jpg";
 
@@ -56,7 +56,7 @@ const About = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
+                  <FaCode className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
@@ -72,7 +72,7 @@ const About = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Laptop className="h-6 w-6 text-primary" />
+                  <FaLaptop className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
@@ -86,7 +86,7 @@ const About = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                  <FaBriefcase className="h-6 w-6 text-primary" />
                 </div>
 
                 <div className="text-left">

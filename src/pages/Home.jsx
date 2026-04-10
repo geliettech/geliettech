@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar";
-// import Bot from "../components/Bot"
 import { StarBackground } from "@/components/StarBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -7,10 +6,9 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Article from "../components/Article";
 import Contact from "../components/Contact";
-import Recommendations from "../components/Recommendations";
+import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 import Experience from "../components/Experience";
-import Lifecycle from "../components/CaseStudy";
 
 export const Home = () => {
   return (
@@ -21,9 +19,6 @@ export const Home = () => {
       {/* Navbar */}
       <Navbar />
 
-      {/* chat bot */}
-      {/* <Bot /> */}
-
       {/* Main Content */}
       <main>
         <Hero />
@@ -31,9 +26,8 @@ export const Home = () => {
         <Skills />
         <Experience />
         <Projects />
-        <Recommendations />
         <Article />
-        <Lifecycle />
+        <Testimonials />
         <Contact />
       </main>
 

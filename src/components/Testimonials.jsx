@@ -13,27 +13,21 @@ const recommendationsData = [
     message: "Her attention to detail and creativity in building responsive UI is outstanding.",
     role: "Project Manager at Stutern",
   },
-  {
-    id: 3,
-    name: "Chinaemerem Njoku",
-    message: "Working with OGE is always a pleasure; she communicates clearly and meets deadlines consistently.",
-    role: "Frontend Developer Intern at Stutern",
-  },
 ];
 
-const Recommendations = () => {
+const Testimonials = () => {
   return (
     
-<section id="recommedations" className="py-24 relative">
+<section id="testimonials" className="py-24 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Recommen<span className="text-primary">dations</span>
+          Testi<span className="text-primary">monials</span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are what clients, business owner and team members are saying abot me.
+          Here are what clients, business owner and team members are saying about me.
         </p>
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
         {recommendationsData.map((rec) => (
           <div
             key={rec.id}
@@ -56,4 +50,4 @@ const Recommendations = () => {
   );
 };
 
-export default Recommendations;
+export default Testimonials;

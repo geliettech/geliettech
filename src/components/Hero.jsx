@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { FaArrowDown } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
@@ -28,8 +28,8 @@ const Hero = () => {
             />
           </h4>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I specialize in helping Individuals, Brands, Businesses in turning their ideas into high-performing Web Applications using React, Next.js, Django, WordPress, and modern UI systems. Open for Collaborations.  
+          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto opacity-0 animate-fade-in-delay-3">
+            I help Individuals, Brands, Businesses in turning their ideas into high-performing Web Applications using React, Next.js, Django, WordPress, and modern UI systems.b
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">

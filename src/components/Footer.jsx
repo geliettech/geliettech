@@ -1,4 +1,4 @@
-import { ArrowUp } from "lucide-react";
+import { FaArrowUp } from "react-icons/fa6";
 
 const currentYear = new Date().getFullYear();
 
@@ -14,7 +14,7 @@ const Footer = () => {
         href="#hero"
         className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
       >
-        <ArrowUp size={20} />
+        <FaArrowUp size={20} />
       </a>
       </div>
       

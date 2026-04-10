@@ -1,14 +1,14 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { FaArrowRight, FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 const projects = [
-    {
+  {
     id: "A7F3K9X2",
     title: "Trovica",
-    description:"Interactive modern multi-page digital agency website that boosts business online visibility and engagement.",
+    description: "Interactive modern multi-page digital agency website that boosts business online visibility and engagement.",
     image: "/images/projects/trovica.png",
     tags: ["React", "TailwindCSS", "Framer Motion"],
     demoUrl: "https://trovica.netlify.app/",
@@ -96,8 +96,8 @@ export const Projects = () => {
           className=""
         >
           {projects.map((project) => (
-            <SwiperSlide className="h-full">
-              <div key={project.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+            <SwiperSlide key={project.id} className="h-full">
+              <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                 <div className="h-48 overflow-hidden">
                   <img
                     src={project.image}
@@ -108,8 +108,8 @@ export const Projects = () => {
 
                 <div className="p-6">
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.map((tag) => (
-                      <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/10 text-muted-foreground">
+                    {project.tags.map((tag, index) => (
+                      <span key={index} className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/10 text-muted-foreground">
                         {tag}
                       </span>
                     ))}
@@ -128,14 +128,14 @@ export const Projects = () => {
                         target="_blank"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
-                        <ExternalLink size={20} />
+                        <FaArrowUpRightFromSquare size={20} />
                       </a>
                       <a
                         href={project.githubUrl}
                         target="_blank"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
-                        <Github size={20} />
+                        <FaGithub size={20} />
                       </a>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export const Projects = () => {
             target="_blank"
             href="https://github.com/geliettech"
           >
-            Check My Github <ArrowRight size={16} />
+            Check My Github <FaArrowRight size={16} />
           </a>
         </div>
       </div>

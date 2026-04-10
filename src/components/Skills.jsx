@@ -17,7 +17,7 @@ import {
   SiDjango,
   SiFigma,
 } from "react-icons/si";
-import { FaCss3Alt } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa6";
 import { DiSqllite } from "react-icons/di";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -31,7 +31,7 @@ const skills = [
     category: "frontend",
   },
   {
-    icon: <FaCss3Alt className="h-full w-full object-contain" />,
+    icon: <FaCss3 className="h-full w-full object-contain" />,
     name: "CSS",
     level: 95,
     category: "frontend",

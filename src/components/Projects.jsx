@@ -3,139 +3,81 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-
-const projects = [
-  {
-    id: "A7F3K9X2",
-    title: "Trovica",
-    description: "Interactive modern multi-page digital agency website that boosts business online visibility and engagement.",
-    image: "/images/projects/trovica.png",
-    tags: ["React", "TailwindCSS", "Framer Motion"],
-    demoUrl: "https://trovica.netlify.app/",
-    githubUrl: "https://github.com/geliettech/trovica",
-  },
-  {
-    id: "ID-48Q7Z1",
-    title: "Shortly",
-    description:
-      "Responsive URL shortening landing page with links shorten, instant copy, and localStorage persistence.",
-    image: "/images/projects/Shortly.jpg",
-    tags: ["Typescript", "React", "TailwindCSS"],
-    demoUrl: "https://shortly-pi-coral.vercel.app/",
-    githubUrl: "https://github.com/geliettech/shortly",
-  },
-  {
-    id: "ID-920174",
-    title: "Countries Explorer",
-    description:
-      "Responsive web app to explore countries data with search, filter, detailed views and Dark theme toogle.",
-    image: "/images/projects/rest-countries.png",
-    tags: ["React", "MaterialUI"],
-    demoUrl:
-      "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
-    githubUrl:
-      "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
-  },
-  {
-    id: "USR-9B2L6M",
-    title: "My Portfolio",
-    description:
-      "Responsive portfolio website showcasing my skills, and experience with smooth animations and interactive elements.",
-    image: "/images/projects/ogechiuhegbu.png",
-    tags: ["TailwindCSS", "framer-motion", "React"],
-    demoUrl: "https://ogechiuhegbu.vercel.app/",
-    githubUrl: "https://github.com-/geliettech/ogechi-uhegbu",
-  },
-  {
-    id: "X5T8P2Q9",
-    title: "Mystic Cookie",
-    description:
-      "Responsive Advice Generator app that generates random advice slips using an external API.",
-    image: "/images/projects/mystic-cookie.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "https://mystic-cookie.netlify.app/",
-    githubUrl: "https://github.com/geliettech/mystic-cookie",
-  },
-  {
-    id: "R8P4Z6L2",
-    title: "Baby Zoo Quiz",
-    description:
-      "Interactive Quiz app that tests users knowledge on baby animals with score tracking and instant feedback.",
-    image: "/images/projects/baby-zoo-quiz.png",
-    tags: ["JavaScript", "HTML", "CSS"],
-    demoUrl: "https://baby-zoo-quiz.vercel.app/",
-    githubUrl: "https://github.com/geliettech/Baby-Zoo-Quiz",
-  },
-];
+import { projects } from "../contants/data";
 
 export const Projects = () => {
   return (
-    <section id="projects" className="py-24 relative">
-      <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          🚀 Featured <span className="text-primary"> Projects </span>
-        </h2>
-
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
-        </p>
-
+    <section id="projects" className="py-16 md:py-24 relative">
+      <div className="container mx-auto max-w-6xl px-4 md:px-8">
+        <header className="mb-10 md:mb-12">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4">
+            🚀 Featured <span className="text-primary">Projects</span>
+          </h2>
+          <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
+            Here are some of my recent projects. Each project was carefully
+            crafted with attention to detail, performance, and user experience.
+          </p>
+        </header>
         <Swiper
           slidesPerView={1}
-          spaceBetween={20}
+          spaceBetween={16}
           breakpoints={{
-            425: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
+            480: { slidesPerView: 1, spaceBetween: 16 },
+            768: { slidesPerView: 2, spaceBetween: 20 },
+            1024: { slidesPerView: 3, spaceBetween: 24 },
           }}
-          loop
-          autoplay={{ delay: 3000 }}
+          loop={true}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           modules={[Pagination, Autoplay]}
-          className=""
+          className="pb-10"
         >
           {projects.map((project) => (
-            <SwiperSlide key={project.id} className="h-full">
-              <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
-                <div className="h-48 overflow-hidden">
+            <SwiperSlide key={project.id} className="h-auto">
+              <div className="group h-full bg-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col">
+                {/* Image */}
+                <div className="h-40 sm:h-44 md:h-48 overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
-
-                <div className="p-6">
-                  <div className="flex flex-wrap gap-2 mb-4">
+                {/* Content */}
+                <div className="p-4 sm:p-5 md:p-6">
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-2 mb-3 sm:mb-4">
                     {project.tags.map((tag, index) => (
                       <span key={index} className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/10 text-muted-foreground">
                         {tag}
                       </span>
                     ))}
                   </div>
-
-                  <h3 className="text-xl font-semibold mb-1">
+                  {/* Title */}
+                  <h3 className="text-lg md:text-xl font-semibold mb-1">
                     {project.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm mb-4">
+                  <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                     {project.description}
                   </p>
+                  {/* Links */}
                   <div className="flex justify-between items-center">
                     <div className="flex space-x-3">
                       <a
                         href={project.demoUrl}
                         target="_blank"
+                        rel="noreferrer"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
-                        <FaArrowUpRightFromSquare size={20} />
+                        <FaArrowUpRightFromSquare size={18} />
                       </a>
                       <a
                         href={project.githubUrl}
                         target="_blank"
+                        rel="noreferrer"
                         className="text-foreground/80 hover:text-primary transition-colors duration-300"
                       >
-                        <FaGithub size={20} />
+                        <FaGithub size={18} />
                       </a>
                     </div>
                   </div>
@@ -145,11 +87,14 @@ export const Projects = () => {
           ))}
         </Swiper>
 
-        <div className="text-center mt-12">
+
+        {/* CTA */}
+        <div className="mt-10 md:mt-12">
           <a
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
-            target="_blank"
             href="https://github.com/geliettech"
+            target="_blank"
+            rel="noreferrer"
+            className="cosmic-button inline-flex items-center gap-2 text-sm md:text-base"
           >
             Check My Github <FaArrowRight size={16} />
           </a>

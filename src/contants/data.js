@@ -225,7 +225,7 @@ export const projects = [
     id: "USR-9B2L6M",
     title: "My Portfolio",
     description:
-      "A modern, fully responsive portfolio website showcasing my skills, projects, and experience. It includes smooth animations, interactive UI elements, and optimized performance to deliver a polished user experience across all screen sizes.",
+      "A modern portfolio website showcasing my skills, projects, and experience. It includes smooth animations, interactive UI elements, and optimized performance to deliver a polished user experience across all screen sizes.",
     image: "/images/projects/ogechiuhegbu.png",
     tags: ["TailwindCSS", "framer-motion", "React"],
     demoUrl: "https://ogechiuhegbu.vercel.app/",

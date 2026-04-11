@@ -41,8 +41,6 @@ const Hero = () => {
           <div className="mt-4 md:mt-8">
             <a
               href="#projects"
-              target="_blank"
-              rel="noreferrer"
               className="cosmic-button inline-flex items-center gap-2 text-sm md:text-base"
             >
               View My Work <FaArrowDown size={16} />

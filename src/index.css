@@ -15,11 +15,10 @@
 
   --color-card: hsl(var(--card));
 
-  /* Animations */
+  /* star Animations */
   --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
-  --animate-meteor: meteor 5s linear infinite;
 
-  /* Animations */
+  /* star Animations */
   @keyframes pulse-subtle {
     0%,
     100% {
@@ -32,17 +31,7 @@
     }
   }
 
-  @keyframes meteor {
-    0% {
-      transform: rotate(215deg) translateX(0);
-      opacity: 1;
-    }
-    100% {
-      transform: rotate(215deg) translateX(-100vw);
-      opacity: 0;
-    }
-  }
-}
+ }
 /* =========================
    Base Styles
 ========================= */
@@ -96,16 +85,6 @@
     text-align: center;
   }
 }
-/* =========================
-   Components
-========================= */
-@layer components {
-  /* Swiper navigation buttons */
-  .swiper-button-next,
-  .swiper-button-prev {
-    @apply text-primary;
-  }
-}
 
 /* =========================
    Utilities
@@ -115,12 +94,6 @@
   .star {
     @apply absolute rounded-full bg-white;
     box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
-  }
-
-  /* Meteor effect */
-  .meteor {
-    @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
   }
 
   /* Container utility */

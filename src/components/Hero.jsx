@@ -33,7 +33,7 @@ const Hero = () => {
           {/* Description */}
           {/* <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto opacity-0 animate-fade-in-delay-3"> */}
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            I build high-performing web applications using React, Next.js, Django, Firebase, and WordPress, and convert Figma designs into responsive, production-ready code.
+           I build high-performing web applications using React, Next.js, Tailwind CSS, and Firebase, and convert Figma designs into responsive, production-ready code.
           </p>
           {/* <div className="pt-4 opacity-0 animate-fade-in-delay-4"> */}
 

@@ -6,7 +6,6 @@
     SiGithub,
     SiJavascript,
     SiReact,
-    SiWordpress,
     SiBootstrap,
     SiNextdotjs,
     SiTypescript,
@@ -29,25 +28,25 @@
       role: "Freelance Frontend Engineer",
       company: "Upwork",
       period: "May 2025 - Present",
-      description:
-        "Built responsive web applications using React and Tailwind CSS, improving usability and performance across devices.",
+      description: 
+        "Deliver responsive, high-performance frontend solutions for global clients using React.js, Next.js, and TailwindCSS, ensuring clean UI and optimal user experience.",
     },
     {
-      role: "Frontend Developer",
+      role: "Frontend Developer (Next.js)",
       company: "Afritech Digital Hub",
       period: "Oct 2025 – Apr 2026",
       description:
-        "Developed scalable UI components with Next.js and collaborated with backend teams to deliver production-ready features.",
+        "Developed scalable UI components with Next.js, Tailwind CSS, and TypeScript and collaborated with backend and designers teams to deliver production-ready features.",
     },
     {
       role: "Software Engineering Tutor",
       company: "NYSC",
       period: "Apr 2024 – Mar 2025",
       description:
-        "Trained 30+ students in programming and web development using practical and project-based learning.",
+        "Taught 30+ students in fundamental computer programming, web programming, and digital literacy through interactive and practical learning sessions.",
     },
     {
-      role: "Frontend Intern",
+      role: "Frontend Developer Intern",
       company: "Stutern",
       period: "Sep 2022 – Aug 2023",
       description:
@@ -58,7 +57,7 @@
       company: "ICT CENTER, FUO",
       period: "Dec 2020 - April 2021",
       description:
-        "Strengthened expertise in HTML, CSS, JavaScript, SQL, and Python through structured training sessions and real-world project implementation.",
+        "Strengthened knowledge in HTML, CSS, and JavaScript through structured training and hands-on practice.",
     },
   ];
 
@@ -85,7 +84,7 @@
   {
     icon: SiJavascript,
     name: "JavaScript",
-    level: 90,
+    level: 80,
     category: "frontend",
   },
   {
@@ -97,13 +96,13 @@
   {
     icon: SiBootstrap,
     name: "Bootstrap",
-    level: 90,
+    level: 80,
     category: "frontend",
   },
   {
     icon: SiTypescript,
     name: "TypeScript",
-    level: 85,
+    level: 75,
     category: "frontend",
   },
   {
@@ -129,35 +128,18 @@
   {
     icon: SiPython,
     name: "python",
-    level: 80,
-    category: "backend",
-  },
-  {
-    icon: SiDjango,
-    name: "Django",
-    level: 75,
-    category: "backend",
-  },
-  {
-    icon: DiSqllite,
-    name: "SQLite",
-    level: 65,
-    category: "backend",
-  },
-  {
-    icon: IoLogoFirebase,
-    name: "Firebase",
-    level: 70,
+    level: 40,
     category: "backend",
   },
   
+  
 
-  // CMS
-  {
-    icon: SiWordpress,
-    name: "Wordpress",
-    level: 80,
-    category: "CMS",
+  // Database
+{
+    icon: IoLogoFirebase,
+    name: "Firebase",
+    level: 70,
+    category: "database",
   },
 
   // Tools
@@ -182,7 +164,7 @@
   {
     icon: VscVscode,
     name: "VS Code",
-    level: 95,
+    level: 90,
     category: "tools",
   },
 ];
@@ -190,6 +172,25 @@
 
 
 export const projects = [
+  // {
+  //   id: "X5T8P2Q9",
+  //   title: "Ceec Luxury Hair",
+  //   description:"",
+  //   image: "",
+  //   tags: ["", ""],
+  //   demoUrl: "",
+  //   githubUrl: "",
+  // },
+    // {
+  //   id: "USR-9B2L6M",
+  //   title: "Zetra",
+  //   description:
+  //     "",
+  //   image: "",
+  //   tags: ["", "", ""],
+  //   demoUrl: "",
+  //   githubUrl: "",
+  // },
   {
     id: "A7F3K9X2",
     title: "Trovica",
@@ -220,35 +221,6 @@ export const projects = [
       "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
     githubUrl:
       "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
-  },
-  {
-    id: "USR-9B2L6M",
-    title: "My Portfolio",
-    description:
-      "A modern portfolio website showcasing my skills, projects, and experience. It includes smooth animations, interactive UI elements, and optimized performance to deliver a polished user experience across all screen sizes.",
-    image: "/images/projects/ogechiuhegbu.png",
-    tags: ["TailwindCSS", "framer-motion", "React"],
-    demoUrl: "https://ogechiuhegbu.vercel.app/",
-    githubUrl: "https://github.com-/geliettech/ogechi-uhegbu",
-  },
-  {
-    id: "X5T8P2Q9",
-    title: "Mystic Cookie",
-    description:"A Responsive Advice Generator application that generates random advice slips in real time using an external API, providing users with quick, motivational, and practical suggestions on demand.",
-    image: "/images/projects/mystic-cookie.png",
-    tags: ["React", "TailwindCSS"],
-    demoUrl: "https://mystic-cookie.netlify.app/",
-    githubUrl: "https://github.com/geliettech/mystic-cookie",
-  },
-  {
-    id: "R8P4Z6L2",
-    title: "Baby Zoo Quiz",
-    description:
-      "An interactive quiz application that tests users’ knowledge of baby animals with real-time score tracking and instant feedback. It features a dynamic question system, progress tracking, and a responsive UI.",
-    image: "/images/projects/baby-zoo-quiz.png",
-    tags: ["JavaScript", "HTML", "CSS"],
-    demoUrl: "https://baby-zoo-quiz.vercel.app/",
-    githubUrl: "https://github.com/geliettech/Baby-Zoo-Quiz",
   },
 ];
 

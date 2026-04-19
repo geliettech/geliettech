@@ -32,11 +32,11 @@ const About = () => {
             </h3>
 
             <p className="text-sm md:text-base text-muted-foreground">
-              With B.Sc. in Computer Science and Informatics and 3 years hands-on experience building responsive, accessible, and performance-optimized web applications using modern technologies.
+              With B.Sc. in Computer Science and Informatics and 2+ years hands-on experience building responsive, accessible, and performance-optimized web applications using modern technologies.
             </p>
 
             <p className="text-sm md:text-base text-muted-foreground">
-              I’ve worked with startups and clients to develop real-world solutions using React, Next.js, Django, Tailwind CSS, WordPress, and Firebase, and modern UI systems.
+              I’ve worked with startups and clients to develop real-world solutions using React, Next.js, Tailwind CSS, Firebase, and modern UI systems.
             </p>
             <p className="text-sm md:text-base text-muted-foreground">
               I focus on writing clean, maintainable code and creating user experiences that solve real problems.
@@ -69,8 +69,7 @@ const About = () => {
                     Frontend Development
                   </h4>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Building high-performance, responsive, and accessible user
-                    interfaces in Agile environments.
+                    Building high-performance, responsive, and accessible user interfaces in Agile environments.
                   </p>
                 </div>
               </div>
@@ -84,8 +83,7 @@ const About = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-base md:text-lg">Web Development</h4>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Creating responsive websites and web applications with modern technologies.
                   </p>
                 </div>
               </div>
@@ -98,10 +96,9 @@ const About = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-base md:text-lg">CMS (Wordpress)</h4>
+                  <h4 className="font-semibold text-base md:text-lg">Responsive Web Design</h4>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Customizing responsive WordPress websites using modern
-                    themes and plugins.
+                    Building fully responsive layouts using modern CSS techniques and frameworks.
                   </p>
                 </div>
               </div>

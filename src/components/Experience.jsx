@@ -28,11 +28,8 @@ const Experience = () => {
                   <h3 className="text-base md:text-xl font-semibold text-foreground">
                     {exp.role}
                   </h3>
-                  <p className="text-xs md:text-sm text-primary">
+                  <p className="mt-2 md:mt-3 text-xs md:text-sm text-primary">
                     {exp.company} • {exp.period}
-                  </p>
-                  <p className="mt-2 md:mt-3 text-sm text-foreground/70">
-                    {exp.description}
                   </p>
                 </div>
               </div>

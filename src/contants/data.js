@@ -28,36 +28,26 @@
       role: "Freelance Frontend Engineer",
       company: "Upwork",
       period: "May 2025 - Present",
-      description: 
-        "Deliver responsive, high-performance frontend solutions for global clients using React.js, Next.js, and TailwindCSS, ensuring clean UI and optimal user experience.",
-    },
+     },
     {
       role: "Frontend Developer (Next.js)",
       company: "Afritech Digital Hub",
       period: "Oct 2025 – Apr 2026",
-      description:
-        "Developed scalable UI components with Next.js, Tailwind CSS, and TypeScript and collaborated with backend and designers teams to deliver production-ready features.",
-    },
+     },
     {
       role: "Software Engineering Tutor",
       company: "NYSC",
       period: "Apr 2024 – Mar 2025",
-      description:
-        "Taught 30+ students in fundamental computer programming, web programming, and digital literacy through interactive and practical learning sessions.",
-    },
+     },
     {
       role: "Frontend Developer Intern",
       company: "Stutern",
       period: "Sep 2022 – Aug 2023",
-      description:
-        "Built responsive interfaces, integrated APIs, and improved application performance using React and modern tools.",
     },
     {
       role: "Software Engineering Intern",
       company: "ICT CENTER, FUO",
       period: "Dec 2020 - April 2021",
-      description:
-        "Strengthened knowledge in HTML, CSS, and JavaScript through structured training and hands-on practice.",
     },
   ];
 
@@ -128,7 +118,7 @@
   {
     icon: SiPython,
     name: "python",
-    level: 40,
+    level: 30,
     category: "backend",
   },
   

@@ -32,7 +32,7 @@
     {
       role: "Frontend Developer (Next.js)",
       company: "Afritech Digital Hub",
-      period: "Oct 2025 – Apr 2026",
+      period: "Oct 2025 – May 2026",
      },
     {
       role: "Software Engineering Tutor",

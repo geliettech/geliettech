@@ -102,7 +102,7 @@ export const Contact = () => {
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex justify-center gap-6 md:gap-10 items-center">
                 {/* Icons */}
-                <div className="flex flex-col gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   <a
                     href="https://www.linkedin.com/in/geliettech"
                     target="_blank"

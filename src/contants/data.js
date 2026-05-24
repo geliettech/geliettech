@@ -35,7 +35,7 @@
       period: "Oct 2025 – May 2026",
      },
     {
-      role: "Software Engineering Tutor",
+      role: "Computer Science Instructor",
       company: "NYSC",
       period: "Apr 2024 – Mar 2025",
      },
@@ -45,7 +45,7 @@
       period: "Sep 2022 – Aug 2023",
     },
     {
-      role: "Software Engineering Intern",
+      role: "ICT Intern",
       company: "ICT CENTER, FUO",
       period: "Dec 2020 - April 2021",
     },

@@ -173,7 +173,7 @@ export const projects = [
   // },
     // {
   //   id: "USR-9B2L6M",
-  //   title: "Zetra",
+  //   title: "Fina",
   //   description:
   //     "",
   //   image: "",
@@ -208,9 +208,9 @@ export const projects = [
     image: "/images/projects/rest-countries.png",
     tags: ["React", "MaterialUI"],
     demoUrl:
-      "https://rest-countries-api-with-color-theme-switcher-byoge.vercel.app/",
+      "https://countries-explorer-byoge.vercel.app",
     githubUrl:
-      "https://github.com/geliettech/rest-countries-api-with-color-theme-switcher",
+      "https://github.com/geliettech/countries-explorer",
   },
 ];
 

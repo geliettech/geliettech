@@ -4,19 +4,19 @@ import Profile from "../assets/img/about/profile.jpg";
 
 
 const About = () => {
-  const startDate = new Date(2023, 8, 20);
+  const startDate = new Date("2023-8-20");
   const currentDate = new Date();
 
 
   let years = currentDate.getFullYear() - startDate.getFullYear();
   let months = currentDate.getMonth() - startDate.getMonth();
 
-  if (months < 0) {
+  if (months < 0 || (months = 0 && currentDate.getDate() < startDate.getDate()) ) {
     years--;
     months += 12;
   }
 
-  const display = months > 0 ? `${years}+` : `${years}`;
+  const display = years;
 
   return (
 
@@ -45,7 +45,7 @@ const About = () => {
             </h3>
 
             <p className="text-sm md:text-base text-muted-foreground">
-              With B.Sc. in Computer Science and Informatics and&nbsp;{display}&nbsp;years hands-on experience building responsive, accessible, and performance-optimized web applications using modern technologies.
+              With B.Sc. in Computer Science & Informatics and&nbsp;{display}&nbsp;years hands-on experience building responsive, accessible, and performance-optimized web applications using modern technologies.
             </p>
 
             <p className="text-sm md:text-base text-muted-foreground">

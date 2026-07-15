@@ -201,6 +201,18 @@ export const projects = [
     githubUrl: "https://github.com/geliettech/shortly",
   },
   {
+    id: "ID-274374",
+    title: "geliettech",
+    description:
+      "A modern portfolio website that serves as a central hub where recruiters, clients, and collaborators can easily explore my professional profile and connect with me. It provides a conversion-focused design to attract clients.",
+    image: "/images/projects/ogechiuhegbu.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl:
+      "https://ogechiuhegbu.vercel.app",
+    githubUrl:
+      "https://github.com/geliettech/ogechi-uhegbu",
+  },
+  {
     id: "ID-920174",
     title: "Countries Explorer",
     description:

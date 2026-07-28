@@ -162,25 +162,6 @@
 
 
 export const projects = [
-  // {
-  //   id: "X5T8P2Q9",
-  //   title: "Ceec Luxury Hair",
-  //   description:"",
-  //   image: "",
-  //   tags: ["", ""],
-  //   demoUrl: "",
-  //   githubUrl: "",
-  // },
-    // {
-  //   id: "USR-9B2L6M",
-  //   title: "fina",
-  //   description:
-  //     "",
-  //   image: "",
-  //   tags: ["", "", ""],
-  //   demoUrl: "",
-  //   githubUrl: "",
-  // },
   {
     id: "A7F3K9X2",
     title: "Trovica",

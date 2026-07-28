@@ -162,29 +162,10 @@
 
 
 export const projects = [
-  // {
-  //   id: "X5T8P2Q9",
-  //   title: "Ceec Luxury Hair",
-  //   description:"",
-  //   image: "",
-  //   tags: ["", ""],
-  //   demoUrl: "",
-  //   githubUrl: "",
-  // },
-    // {
-  //   id: "USR-9B2L6M",
-  //   title: "Fina",
-  //   description:
-  //     "",
-  //   image: "",
-  //   tags: ["", "", ""],
-  //   demoUrl: "",
-  //   githubUrl: "",
-  // },
   {
     id: "A7F3K9X2",
     title: "Trovica",
-    description: "A modern, multi-page digital agency website designed to enhance business visibility and engagement. It includes smooth navigation, responsive layouts, and conversion-focused design to attract and retain clients.",
+    description: "A modern, multi-page Business website designed to enhance business visibility and engagement. It includes smooth navigation, responsive layouts, and conversion-focused design to attract and retain clients.",
     image: "/images/projects/trovica.png",
     tags: ["React", "TailwindCSS", "Framer Motion"],
     demoUrl: "https://trovica.netlify.app/",

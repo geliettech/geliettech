@@ -134,11 +134,11 @@ export const Contact = () => {
                 </div>
 
                 {/* QR Code */}
-                <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44">
+                <div className="w-34 h-34">
                   <img
                     src={WhatsappQRCode}
                     alt="WhatsApp QR"
-                    className="w-full h-full object-cover rounded-xl shadow"
+                    className="w-full h-full object-cover rounded-lg shadow"
                   />
                 </div>
               </div>

@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-import { projects } from "../contants/data";
+import { projects } from "../constants/data";
 
 export const Projects = () => {
   return (

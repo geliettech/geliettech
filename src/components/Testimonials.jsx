@@ -1,4 +1,4 @@
-import { recommendations } from "../contants/data";
+import { recommendations } from "../constants/data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";

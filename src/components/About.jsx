@@ -1,5 +1,5 @@
 import { FaBriefcase, FaCode, FaLaptop } from "react-icons/fa6";
-import CV from "../assets/OGECHI_JULIET_UHEGBU_FrontendDeveloper.pdf";
+import CV from "../assets/OGECHI_JULIET_UHEGBU_Resume.pdf";
 import Profile from "../assets/img/about/profile.jpg";
 
 

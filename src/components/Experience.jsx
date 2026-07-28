@@ -1,4 +1,4 @@
-import { experiences } from "../contants/data";
+import { experiences } from "../constants/data";
 
 const Experience = () => {
   return (

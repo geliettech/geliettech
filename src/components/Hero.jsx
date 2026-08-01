@@ -25,17 +25,15 @@ const Hero = () => {
           {/* Subheading */}
           <h4 className="text-base sm:text-lg md:text-2xl font-semibold text-foreground/80">
             <TypeAnimation
-              sequence={["Frontend Developer", 2000, "Web Developer", 2000]}
+              sequence={["Frontend Developer", 2000, "Full-Stack Developer", 2000]}
               speed={50}
               repeat={Infinity}
             />
           </h4>
           {/* Description */}
-          {/* <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto opacity-0 animate-fade-in-delay-3"> */}
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-           I build high-performing web applications using React, Next.js, Tailwind CSS, and Firebase, and convert Figma designs into responsive, production-ready code.
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+           I build high-performing web applications using React, Next.js, Tailwind CSS, Firebase, postgresql and Nest.js, and convert Figma designs into responsive, production-ready code.
           </p>
-          {/* <div className="pt-4 opacity-0 animate-fade-in-delay-4"> */}
 
           {/* CTA */}
           <div className="mt-4 md:mt-8">

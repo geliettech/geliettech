@@ -80,7 +80,7 @@ export const Contact = () => {
                   <h4 className="text-sm md:text-base font-medium">Email</h4>
                   <a
                     href="mailto:julietogechi27@gmail.com"
-                    className="text-sm text-muted-foreground hover:text-primary"
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
                   >
                     julietogechi27@gmail.com
                   </a>
@@ -93,7 +93,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-sm md:text-base font-medium">Location</h4>
-                  <p className="text-sm text-muted-foreground hover:text-primary">Lagos, Nigeria</p>
+                  <p className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Lagos, Nigeria</p>
                 </div>
               </div>
             </div>
@@ -105,30 +105,30 @@ export const Contact = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <a
                     href="https://www.linkedin.com/in/geliettech"
-                    target="_blank"
+                    target="_blank" className="hover:text-primary transition-colors duration-300"
                   >
                     <FaLinkedin size={20} />
                   </a>
-                  <a href="https://www.x.com/geliettech" target="_blank">
+                  <a href="https://www.x.com/geliettech" target="_blank" className="hover:text-primary transition-colors duration-300">
                     <FaXTwitter size={20} />
                   </a>
                   <a
-                    href="https://www.instagram.com/geliettech"
+                    href="https://www.instagram.com/geliettech" className="hover:text-primary transition-colors duration-300"
                     target="_blank"
                   >
                     <FaInstagram size={20} />
                   </a>
                   <a
                     href="https://www.pinterest.com/geliettech"
-                    target="_blank"
+                    target="_blank" className="hover:text-primary transition-colors duration-300"
                   >
                     <FaPinterest size={20} />
                   </a>
-                  <a href="https://www.youtube.com/geliettech" target="_blank">
+                  <a href="https://www.youtube.com/@geliettech" target="_blank" className="hover:text-primary transition-colors duration-300">
                     <FaYoutube size={20} />
                   </a>
 
-                  <a href="https://geliettech.medium.com/" target="_blank">
+                  <a href="https://geliettech.medium.com/" target="_blank" className="hover:text-primary transition-colors duration-300">
                     <SiMedium size={20} />
                   </a>
                 </div>
@@ -160,7 +160,7 @@ export const Contact = () => {
                   value={form.fullname}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 md:px-4 py-2 md:py-3 rounded-md border border-input bg-background text-sm"
+                  className="input-field"
                   placeholder="Jane Maxwell"
                 />
               </div>
@@ -175,8 +175,8 @@ export const Contact = () => {
                   value={form.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 md:px-4 py-2 md:py-3 rounded-md border border-input bg-background text-sm"
-                  placeholder="jane@gmail.com"
+                  className="input-field"
+                  placeholder="janemaxwell@gmail.com"
                 />
               </div>
 
@@ -190,7 +190,7 @@ export const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-3 md:px-4 py-2 md:py-3 rounded-md border border-input bg-background text-sm resize-none"
+                  className="input-field"
                   placeholder="Hello, I'd like to talk about..."
                 />
               </div>

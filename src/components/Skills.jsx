@@ -26,7 +26,7 @@ const Skills = () => {
                 "px-4 md:px-5 py-2 rounded-full text-sm md:text-base transition-all duration-300 capitalize",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
-                  : "bg-primary/10 text-foreground hover:bg-secondary"
+                  : "bg-primary/10 text-foreground hover:bg-primary/50 hover:text-primary-foreground",
               )}
             >
               {category}

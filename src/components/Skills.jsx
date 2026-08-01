@@ -2,7 +2,7 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 import { skills } from "../constants/data";
 
-const categories = ["all", "frontend", "backend", "database", "tools"];
+const categories = ["all", "frontend", "BaaS", "database", "backend", "tools"];
 
 const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("all");

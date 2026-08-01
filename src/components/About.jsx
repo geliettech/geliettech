@@ -72,7 +72,7 @@ const About = () => {
           {/* Right Cards Section */}
           <div className="grid grid-cols-1 gap-6">
             {/* Card 1 */}
-            <div className="gradient-border p-5 md:p-6 card-hover">
+            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10 shrink-0">
                   <FaCode className="h-5 w-5 md:h-6 md:w-6 text-primary" />
@@ -88,7 +88,7 @@ const About = () => {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="gradient-border p-5 md:p-6 card-hover">
+            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10 shrink-0">
                   <FaLaptop className="h-5 w-5 md:h-6 md:w-6 text-primary" />
@@ -102,7 +102,7 @@ const About = () => {
               </div>
             </div>
             {/* Card 3 */}
-            <div className="gradient-border p-5 md:p-6 card-hover">
+            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10 shrink-0">
                   <FaBriefcase className="h-5 w-5 md:h-6 md:w-6 text-primary" />

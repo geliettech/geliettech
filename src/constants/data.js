@@ -1,57 +1,54 @@
-  
-  import {
-    SiHtml5,
-    SiSass,
-    SiGit,
-    SiGithub,
-    SiJavascript,
-    SiReact,
-    SiBootstrap,
-    SiNextdotjs,
-    SiTypescript,
-    SiTailwindcss,
-    SiMui,
-    SiPython,
-    SiDjango,
-    SiFigma,
-  } from "react-icons/si";
-  import { FaCss3 } from "react-icons/fa6";
-  import { DiSqllite } from "react-icons/di";
-  import { VscVscode } from "react-icons/vsc";
-  import { IoLogoFirebase } from "react-icons/io5";
-  
-  
-  
-  
-  export const experiences = [
-    {
-      role: "Freelance Frontend Engineer",
-      company: "Upwork",
-      period: "May 2025 - Present",
-     },
-    {
-      role: "Frontend Developer (Next.js)",
-      company: "Afritech Digital Hub",
-      period: "Oct 2025 – May 2026",
-     },
-    {
-      role: "Computer Science Instructor",
-      company: "NYSC",
-      period: "Apr 2024 – Mar 2025",
-     },
-    {
-      role: "Frontend Developer Intern",
-      company: "Stutern",
-      period: "Sep 2022 – Aug 2023",
-    },
-    {
-      role: "ICT Intern",
-      company: "ICT CENTER, FUO",
-      period: "Dec 2020 - April 2021",
-    },
-  ];
+import {
+  SiHtml5,
+  SiSass,
+  SiGit,
+  SiGithub,
+  SiJavascript,
+  SiReact,
+  SiBootstrap,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiMui,
+  SiPython,
+  SiDjango,
+  SiFigma, SiNestjs, SiPostgresql
+} from "react-icons/si";
+import { FaCss3 } from "react-icons/fa6";
+import { DiSqllite } from "react-icons/di";
+import { VscVscode } from "react-icons/vsc";
+import { IoLogoFirebase } from "react-icons/io5";
+import { RiSupabaseLine } from "react-icons/ri";
 
-  export const skills = [
+export const experiences = [
+  {
+    role: "Freelance Frontend Engineer",
+    company: "Upwork",
+    period: "May 2025 - Present",
+  },
+  {
+    role: "Frontend Developer (Next.js)",
+    company: "Afritech Digital Hub",
+    period: "Oct 2025 – May 2026",
+  },
+  {
+    role: "Computer Science Instructor",
+    company: "NYSC",
+    period: "Apr 2024 – Mar 2025",
+  },
+  {
+    role: "Frontend Developer Intern",
+    company: "Stutern",
+    period: "Sep 2022 – Aug 2023",
+  },
+  {
+    role: "ICT Intern",
+    company: "ICT CENTER, FUO",
+    period: "Dec 2020 - April 2021",
+  },
+];
+
+export const skills = [
   // Frontend
   {
     icon: SiHtml5,
@@ -113,23 +110,39 @@
     level: 80,
     category: "frontend",
   },
+  // BaaS
+  {
+    icon: IoLogoFirebase,
+    name: "Firebase",
+    level: 70,
+    category: "BaaS",
+  },
+    {
+    icon: RiSupabaseLine,
+    name: "Supabase",
+    level: 50,
+    category: "BaaS",
+  },
+  // Database
 
+  {
+    icon: SiPostgresql,
+    name: "PostgreSQL",
+    level: 50,
+    category: "database",
+  },
   // Backend
   {
     icon: SiPython,
     name: "python",
-    level: 30,
+    level: 25,
     category: "backend",
   },
-  
-  
-
-  // Database
-{
-    icon: IoLogoFirebase,
-    name: "Firebase",
-    level: 70,
-    category: "database",
+  {
+    icon: SiNestjs ,
+    name: "Nest.js",
+    level: 35,
+    category: "backend",
   },
 
   // Tools
@@ -139,7 +152,7 @@
     level: 90,
     category: "tools",
   },
-    {
+  {
     icon: SiGithub,
     name: "GitHub",
     level: 90,
@@ -159,13 +172,12 @@
   },
 ];
 
-
-
 export const projects = [
   {
     id: "A7F3K9X2",
     title: "Trovica",
-    description: "A modern digital agency website designed to showcase digital solutions, increase online business visibility, and improve customer engagement. It features smooth navigation, responsive layouts, and a conversion-focused design to attract and retain clients.",
+    description:
+      "A modern agency website to showcase digital solutions, increase online business visibility, and improve customer engagement. It features smooth navigation, responsive layouts, and a conversion-focused design to attract and retain clients.",
     image: "/images/projects/trovica.png",
     tags: ["React", "TailwindCSS", "Framer Motion"],
     demoUrl: "https://trovica.netlify.app/",
@@ -188,10 +200,8 @@ export const projects = [
       "A modern portfolio website that serves as a central hub where recruiters, clients, and collaborators can easily explore my professional profile including my skills and experience, and connect with me. It provides a conversion-focused design to attract clients.",
     image: "/images/projects/ogechiuhegbu.png",
     tags: ["React", "TailwindCSS"],
-    demoUrl:
-      "https://ogechiuhegbu.vercel.app",
-    githubUrl:
-      "https://github.com/geliettech/ogechi-uhegbu",
+    demoUrl: "https://ogechiuhegbu.vercel.app",
+    githubUrl: "https://github.com/geliettech/ogechi-uhegbu",
   },
   {
     id: "ID-920174",
@@ -200,10 +210,8 @@ export const projects = [
       "A responsive web application that allows users to search for any country, filter countries by continent, and view detailed information about each country with a dark mode toggle. It provides a clean, intuitive interface for quickly accessing global data.",
     image: "/images/projects/rest-countries.png",
     tags: ["React", "MaterialUI"],
-    demoUrl:
-      "https://countries-explorer-byoge.vercel.app",
-    githubUrl:
-      "https://github.com/geliettech/countries-explorer",
+    demoUrl: "https://countries-explorer-byoge.vercel.app",
+    githubUrl: "https://github.com/geliettech/countries-explorer",
   },
 ];
 
@@ -211,15 +219,19 @@ export const recommendations = [
   {
     id: 1,
     name: "SuvWe Money",
-    message: "OGE, you're exceptional frontend developer. You delivers clean and efficient code, and your attention to detail is outstanding.",
+    message:
+      "OGE, you're exceptional frontend developer. You delivers clean and efficient code, and your attention to detail is outstanding.",
   },
-    {
+  {
     id: 2,
     name: "Jesufunni",
-    message: "The work you did on the student portal dashboard should not go without commendation, you did really well. Very sweet UI.",
+    message:
+      "The work you did on the student portal dashboard should not go without commendation, you did really well. Very sweet UI.",
   },
   {
     id: 3,
     name: "Smartee",
-    message: "You did a good Job on platform settings Ogechi. I like the way you implemented the UI and the responsiveness of the design.",},
+    message:
+      "You did a good Job on platform settings Ogechi. I like the way you implemented the UI and the responsiveness of the design.",
+  },
 ];

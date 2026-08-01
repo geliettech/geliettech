@@ -165,7 +165,7 @@ export const projects = [
   {
     id: "A7F3K9X2",
     title: "Trovica",
-    description: "A modern, multi-page Business website designed to enhance business visibility and engagement. It includes smooth navigation, responsive layouts, and conversion-focused design to attract and retain clients.",
+    description: "A modern digital agency website designed to showcase digital solutions, increase online business visibility, and improve customer engagement. It features smooth navigation, responsive layouts, and a conversion-focused design to attract and retain clients.",
     image: "/images/projects/trovica.png",
     tags: ["React", "TailwindCSS", "Framer Motion"],
     demoUrl: "https://trovica.netlify.app/",
@@ -175,7 +175,7 @@ export const projects = [
     id: "ID-48Q7Z1",
     title: "Shortly",
     description:
-      "A responsive URL shortening web app that allows users to shorten long links, instantly copy results, and store data locally using localStorage persistence. It ensures a smooth and efficient user experience with real-time feedback.",
+      "A responsive landing page that allows users to shorten long URLs, instantly copy shortened links, and retain shortened URLs across page reloads. It provides a smooth and efficient user experience with LocalStorage persistence, form validation, and error handling.",
     image: "/images/projects/Shortly.jpg",
     tags: ["Typescript", "React", "TailwindCSS"],
     demoUrl: "https://shortly-pi-coral.vercel.app/",
@@ -185,7 +185,7 @@ export const projects = [
     id: "ID-274374",
     title: "geliettech",
     description:
-      "A modern portfolio website that serves as a central hub where recruiters, clients, and collaborators can easily explore my professional profile and connect with me. It provides a conversion-focused design to attract clients.",
+      "A modern portfolio website that serves as a central hub where recruiters, clients, and collaborators can easily explore my professional profile including my skills and experience, and connect with me. It provides a conversion-focused design to attract clients.",
     image: "/images/projects/ogechiuhegbu.png",
     tags: ["React", "TailwindCSS"],
     demoUrl:
@@ -197,7 +197,7 @@ export const projects = [
     id: "ID-920174",
     title: "Countries Explorer",
     description:
-      "A responsive web application for exploring countries worldwide, featuring search, filtering by region, detailed country views, and a dark mode toggle. It provides a clean and intuitive interface for quickly accessing global data.",
+      "A responsive web application that allows users to search for any country, filter countries by continent, and view detailed information about each country with a dark mode toggle. The provides a clean, intuitive interface for quickly accessing global data.",
     image: "/images/projects/rest-countries.png",
     tags: ["React", "MaterialUI"],
     demoUrl:

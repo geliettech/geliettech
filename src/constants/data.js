@@ -197,7 +197,7 @@ export const projects = [
     id: "ID-920174",
     title: "Countries Explorer",
     description:
-      "A responsive web application that allows users to search for any country, filter countries by continent, and view detailed information about each country with a dark mode toggle. The provides a clean, intuitive interface for quickly accessing global data.",
+      "A responsive web application that allows users to search for any country, filter countries by continent, and view detailed information about each country with a dark mode toggle. It provides a clean, intuitive interface for quickly accessing global data.",
     image: "/images/projects/rest-countries.png",
     tags: ["React", "MaterialUI"],
     demoUrl:

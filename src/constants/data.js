@@ -201,7 +201,7 @@ export const projects = [
     image: "/images/projects/ogechiuhegbu.png",
     tags: ["React", "TailwindCSS"],
     demoUrl: "https://ogechiuhegbu.vercel.app",
-    githubUrl: "https://github.com/geliettech/ogechi-uhegbu",
+    githubUrl: "https://github.com/geliettech/geliettech",
   },
   {
     id: "ID-920174",

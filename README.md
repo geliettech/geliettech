@@ -132,6 +132,23 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
   />
 </p>
 
+
+
+
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=dark&hide_border=false"
+    alt="Top Languages"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark&hide_border=false&border_radius=2&hide=contribs"
+    alt="GitHub Statistics"
+  />
+</p>
 <p align="center">
   <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"

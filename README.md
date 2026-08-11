@@ -21,31 +21,13 @@
 </h3>
 
 <p align="center">
-  <strong>3+ years of experience building responsive, scalable, accessible, and user-focused web applications.</strong>
+  <strong>with 3+ years of experience building responsive, scalable, accessible, and user-focused web applications.</strong>
 </p>
 
 <p align="center">
   I enjoy transforming ideas and designs into clean, performant, and maintainable digital products.
   I'm continuously expanding my expertise in full-stack development, software engineering, and scalable application architecture.
 </p>
-
----
-
-## 👩🏽‍💻 About Me
-
-I'm a **Frontend Developer and Full-Stack Developer** passionate about creating modern, accessible, and scalable web applications.
-
-- 💻 3+ years of professional experience in frontend development
-- ⚛️ Experienced with **React.js, Next.js, TypeScript, and JavaScript**
-- 🎨 Build responsive and accessible interfaces with **Tailwind CSS, CSS3, and HTML5**
-- 🔧 Develop backend services and REST APIs using **NestJS**
-- 🗄️ Work with **PostgreSQL, Firebase, and Supabase**
-- 🧩 Interested in scalable, maintainable, and well-structured application architecture
-- ⚡ Passionate about performance optimization and exceptional user experiences
-- 🔐 Experienced in implementing authentication and authorization workflows
-- 📊 Enjoy building dashboards and data-driven applications
-- 📚 Continuously learning and exploring modern software engineering practices
-- 🤝 Open to collaborating on meaningful projects and innovative ideas
 
 ---
 
@@ -62,43 +44,39 @@ I'm a **Frontend Developer and Full-Stack Developer** passionate about creating 
 
 ## 💡 Professional Strengths
 
-- 🤝 Effective communication and cross-functional collaboration
-- 🧠 Strong problem-solving and analytical skills
+- 🤝 Effective Communication & Teamwork
+- 🧠 Excellent Problem Solving & analytical skills
 - 🔍 Attention to detail
-- ⏱️ Time management and ability to meet deadlines
-- 🔄 Adaptability and continuous learning
-- 🧩 Structured and maintainable approach to software development
-- 🎯 Focus on usability, accessibility, and user experience
+- ⏱️ Time management
+- 🔄 Adaptability
 
 ---
 
 ## 🚀 What I Build
 
-- 🌐 Responsive websites and modern web applications
-- ⚛️ React and Next.js applications
-- 🔧 REST APIs and backend services
-- 🔐 Authentication and authorization systems
-- 📊 Interactive dashboards and data-driven applications
-- 🗄️ Database-driven applications
-- 📱 Mobile-first responsive interfaces
-- 🧩 Reusable and scalable UI component systems
-- ⚡ Performance-optimized applications
-- 🎨 Pixel-accurate implementations from Figma designs
-- ☁️ Cloud-connected applications using Firebase and Supabase
+- 🌐 **Modern Web Applications** — Responsive, accessible, and user-focused web experiences
+- ⚛️ **React & Next.js Applications** — Scalable applications with reusable and maintainable components
+- 🎨 **Responsive UI Development** — Mobile-first interfaces built from Figma designs with attention to detail
+- 📊 **Dashboards & Data-Driven Applications** — Interactive dashboards for presenting and managing complex data
+- 🔧 **REST APIs & Backend Services** — Structured APIs and backend services using NestJS
+- 🔐 **Authentication & Authorization** — Secure user authentication and role-based access workflows
+- 🗄️ **Database-Driven Applications** — Applications backed by PostgreSQL, Firebase, and Supabase
+- 🧩 **Reusable UI Systems** — Scalable component architectures designed for consistency and maintainability
+- ⚡ **Performance Optimization** — Fast, efficient, and production-ready applications
+- ☁️ **Cloud-Connected Applications** — Applications integrated with cloud-based services and platforms
+- 🏗️ **Scalable Software Architecture** — Well-structured applications designed for maintainability and growth
+- 🤝 **Collaborative Development** — Working effectively with designers, backend developers, and cross-functional teams
+
 
 ---
 
-## 📌 Featured Projects
+## 📌 Ongoing Featured Projects
 
 ### ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
 
 **Role:** Frontend Developer
 
 > 🔒 Private Project
-
-A multi-tenant SaaS platform focused on cloud cost optimization, analytics, spend forecasting, anomaly detection, and actionable cost-saving recommendations across major cloud providers.
-
-**Focus:** Next.js · React · TypeScript · Cloud Cost Analytics · SaaS
 
 ---
 
@@ -117,10 +95,6 @@ A modern web application focused on delivering a smooth and intuitive user exper
 **Role:** Full-Stack Developer
 
 > 🔒 Private Project
-
-An e-commerce platform designed to provide a seamless shopping experience through responsive interfaces, product management, and a user-friendly purchasing flow.
-
-**Focus:** Frontend Development · E-commerce · Full-Stack Development
 
 ---
 

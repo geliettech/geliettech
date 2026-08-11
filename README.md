@@ -6,17 +6,6 @@
   />
 </p>
 
-<p align="left">
-  <a href="https://github.com/geliettech/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=geliettech">
-</a>
-</p>
-<p align="left">
-<a href="https://github.com/geliettech?tab=followers">
-<img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge">
-</a>
-</p>
-
 <h1 align="center">Hi, I'm Oge 👋</h1>
 
 <h3 align="center">
@@ -59,49 +48,46 @@
 
 ## 📌 Ongoing Featured Projects
 
-### ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
+### 1. ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
 
-**Role:** Frontend Developer
+- **Role:** Frontend Developer
+- > 🔒 Private Project
 
-> 🔒 Private Project
+### 2. 💰 Fina — Financial Web Application
 
----
+- **Role:** Web Developer
+- A modern web application focused on helping users understand their financial health, manage spending, track savings, monitor investments, create budgets, receive Finance Advice, and make smarter financial decisions through a secure and scalable SaaS platform..
+- **Tech:** `React` · `JavaScript` · `Firebase` · `Tailwind CSS`
 
-### 💰 Fina — Financial Web Application
+### 3. 💇🏽‍♀️ CeecLuxuryHair — E-commerce Hair Store
 
-**Role:** Web Developer
+- **Role:** Full-Stack Developer
+- > 🔒 Private Project
 
-A modern web application focused on delivering a smooth and intuitive user experience through responsive interfaces, reusable components, and efficient frontend architecture.
+### 4. 🔌 Hackathon API
 
-**Tech:** `React` · `JavaScript` · `Firebase` · `Tailwind CSS`
-
----
-
-### 💇🏽‍♀️ CeecLuxuryHair — E-commerce Hair Store
-
-**Role:** Full-Stack Developer
-
-> 🔒 Private Project
-
----
-
-### 🔌 Hackathon API
-
-**Role:** Backend Developer
-
-A backend API developed during a hackathon, focusing on structured REST endpoints, backend business logic, data management, authentication, and frontend integration.
-
-**Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
+- **Role:** Backend Developer
+- A scalable hackathon role base API Auth where Admins and Participants have different permissions.
+- **Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
 
 ---
 
 ## 📈📊 GitHub Activity & Statistics
 
 <p align="center">
-  <img
+<a href="https://github.com/geliettech/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=geliettech">
+</a>
+<a href="https://github.com/geliettech?tab=followers">
+<img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge">
+</a>
+</p>
+<p align="center">
+<img
     src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"
     alt="GitHub Streak"
   />
+
 </p>
 <p align="center">
   <img

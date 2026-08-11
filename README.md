@@ -69,7 +69,7 @@ I enjoy turning ideas and designs into **clean, performant, and maintainable pro
 
 ---
 
-## 📌 Featured Projects
+## 📌 Ongoing Featured Projects
 
 ### ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
 
@@ -77,27 +77,19 @@ I enjoy turning ideas and designs into **clean, performant, and maintainable pro
 
 > 🔒 Private Project
 
-
----
-
 ### 💰 Fina
 
 **Role:** Web Developer
 
 A modern web application focused on delivering a smooth and intuitive user experience through responsive interfaces and reusable frontend components.
 
-**Tech:** `React` · `JavaScript` · `HTML5` · `CSS3`
-
----
+**Tech:** `React` · `JavaScript` · `Firebase` · `TailwindCSS`
 
 ### 💇🏽‍♀️ CeecLuxuryHair — E-commerce Hair Store
 
 **Role:** Full-Stack Developer
 
 > 🔒 Private Project
-
-
----
 
 ### 🔌 Hackathon API
 
@@ -116,9 +108,6 @@ A backend API developed during a hackathon, focusing on structured endpoints, ba
     src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&theme=tokyonight&hide_border=true"
     alt="Oge's GitHub Stats"
   />
-</p>
-
-<p align="center">
   <img
     src="https://streak-stats.demolab.com?user=geliettech&theme=tokyonight&hide_border=true"
     alt="GitHub Streak"
@@ -134,60 +123,39 @@ A backend API developed during a hackathon, focusing on structured endpoints, ba
 
 ---
 
-## 🌐 Portfolio
-
-Explore my portfolio to see my projects, experience, skills, and work.
-
-<p align="center">
-  <a href="https://ogechiuhegbu.vercel.app/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Visit_My_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
-      alt="Visit My Portfolio"
-    />
-  </a>
-</p>
-
----
-
 ## 🤝 Let's Connect
 
 <p align="left">
-  <a href="https://ogechiuhegbu.vercel.app/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
-      alt="Portfolio"
-    />
-  </a>
 
-  <a href="https://www.linkedin.com/in/geliettech" target="_blank">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
-  </a>
+<a href="https://ogechiuhegbu.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+</a>
 
-  <a href="https://github.com/geliettech" target="_blank">
-    <img
-      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
-  </a>
+<a href="https://www.linkedin.com/in/geliettech" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<a href="https://github.com/geliettech" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<a href="https://geliettech.medium.com" target="_blank">
+  <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
+</a>
+
+<a href="https://www.pinterest.com/geliettech" target="_blank">
+  <img src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest"/>
+</a>
+
+<a href="https://www.youtube.com/@geliettech" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+</a>
+
+<a href="https://www.instagram.com/geliettech" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+</a>
+
 </p>
-
----
-
-## 💡 What I Care About
-
-I enjoy building software that is:
-
-- 🎯 **User-focused**
-- ♿ **Accessible**
-- ⚡ **Fast and performant**
-- 📱 **Responsive**
-- 🧩 **Maintainable**
-- 📈 **Scalable**
-- 🔐 **Secure**
-- 🧪 **Reliable**
 
 ---
 

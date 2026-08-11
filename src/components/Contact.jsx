@@ -128,7 +128,7 @@ export const Contact = () => {
                     <FaYoutube size={20} />
                   </a>
 
-                  <a href="https://geliettech.medium.com/" target="_blank" className="hover:text-primary transition-colors duration-300">
+                  <a href="https://geliettech.medium.com" target="_blank" className="hover:text-primary transition-colors duration-300">
                     <SiMedium size={20} />
                   </a>
                 </div>

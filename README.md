@@ -1,24 +1,26 @@
-# Hi, I'm Ogechi Juliet Uhegbu 👋
+# Hi, I'm Oge 👋
 
-### Frontend Developer | React.js | Next.js | TypeScript
+### Frontend & Full-Stack Developer | React.js | Next.js | TypeScript | NestJS | PostgreSQL | Firebase | Supabase
 
-I'm a Frontend Developer with **3+ years of experience** building responsive, scalable, and user-focused web applications.
+I'm a **Frontend & Full-Stack Developer with 3 years of experience** building responsive, scalable, and user-focused web applications.
 
-I enjoy turning ideas and designs into clean, accessible, performant interfaces while focusing on maintainable code and great user experiences.
+I enjoy turning ideas and designs into clean, accessible, and performant products while focusing on maintainable architecture, great user experiences, and reliable solutions.
 
-🌐 **Portfolio:** [ogechiuhegbu.vercel.app](https://ogechiuhegbu.vercel.app/)
+🌐 **Portfolio:** [ogechiuhegbu.vercel.app](https://ogechiuhegbu.vercel.app)
 
 ---
 
 ## 👩🏽‍💻 About Me
 
-- 💻 Frontend Developer passionate about building modern web applications
-- ⚛️ Specialized in **React.js, Next.js, and TypeScript**
-- 🎨 Experienced with **Tailwind CSS, CSS3, and responsive UI development**
-- 🧩 Interested in building scalable and maintainable frontend architectures
+- 💻 Frontend & Full-Stack Developer passionate about building modern web applications
+- ⚛️ Experienced with **React.js, Next.js, TypeScript, and JavaScript**
+- 🎨 Experienced in building responsive interfaces with **Tailwind CSS, CSS3, and HTML5**
+- 🔧 Building backend services and APIs with **NestJS**
+- 🗄️ Working with **PostgreSQL, Firebase, and Supabase**
+- 🧩 Interested in scalable, maintainable, and well-structured application architecture
 - 🚀 Passionate about performance, accessibility, and great user experiences
-- 📚 Always learning and exploring better ways to build for the web
-- 🤝 Open to collaborating on interesting projects
+- 📚 Continuously learning and exploring better ways to build for the web
+- 🤝 Open to collaborating on interesting projects and innovative ideas
 
 ---
 
@@ -31,13 +33,20 @@ I enjoy turning ideas and designs into clean, accessible, performant interfaces 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Frameworks & Libraries
+### Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-### Tools & Technologies
+### Backend & Databases
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+### Tools & Platforms
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -49,47 +58,90 @@ I enjoy turning ideas and designs into clean, accessible, performant interfaces 
 ## 🚀 What I Build
 
 - 🌐 Responsive websites and web applications
-- ⚛️ React-based applications
-- ▲ Next.js applications
-- 📱 Mobile-first interfaces
-- 🔐 Authentication and user-facing flows
-- 📊 Interactive dashboards
+- ⚛️ React & Next.js applications
+- 🔧 REST APIs and backend services
+- 🔐 Authentication and authorization systems
+- 📊 Interactive dashboards and data-driven applications
+- 🗄️ Database-driven applications
+- 📱 Mobile-first and responsive interfaces
 - 🧩 Reusable and scalable UI components
 - ⚡ Performance-optimized applications
 - 🎨 Pixel-perfect implementations from Figma designs
+- ☁️ Cloud-connected applications using Firebase and Supabase
 
 ---
 
 ## 📌 Featured Projects
 
-### ☁️ Twixle FinOps
+### ☁️ Multi-Tenant Cloud Cost Optimization Platform
 
-A multi-tenant cloud cost optimization platform designed to help organizations analyze cloud spending, identify waste, forecast costs, detect anomalies, and discover actionable cost-saving opportunities.
+**Role:** Frontend Developer
 
-**Tech:** Next.js · React · TypeScript · Tailwind CSS · Go · Python
+A multi-tenant cloud cost optimization platform that helps organizations analyze cloud spending, identify waste, forecast costs, detect anomalies, and discover actionable cost-saving opportunities.
 
----
-
-### 💼 Portfolio
-
-My personal portfolio showcasing my experience, skills, projects, and work as a Frontend Developer.
-
-🌐 [View Portfolio](https://ogechiuhegbu.vercel.app/)
+**Tech:** `Private Project`
 
 ---
 
-## 📈 GitHub Stats
+### 💰 Fina
+
+**Role:** Web Developer
+
+A modern web application focused on delivering a smooth and intuitive user experience through responsive interfaces and reusable frontend components.
+
+**Tech:** `React` · `JavaScript` · `HTML5` · `CSS3`
+
+---
+
+### 💇🏽‍♀️ CeecLuuryHair
+
+**Role:** Full-Stack Developer
+
+A full-stack web application designed to provide users with a seamless experience for exploring and interacting with hair and beauty services/products.
+
+**Tech:** `Private Project`
+
+---
+
+### 🔌 Hackathon API
+
+**Role:** Backend Developer
+
+A backend API developed during a hackathon, focusing on structured endpoints, backend logic, data management, and integration with frontend applications.
+
+**Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
+
+---
+
+## 💼 Portfolio
+
+Explore my portfolio to see my projects, experience, skills, and work.
+
+🌐 **[View My Portfolio →](https://ogechiuhegbu.vercel.app/)**
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="Ogechi's GitHub Stats" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"
+    alt="Oge's GitHub Stats"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"
+    alt="Top Languages"
+  />
 </p>
 
 ---
@@ -102,7 +154,7 @@ My personal portfolio showcasing my experience, skills, projects, and work as a 
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
-<a href="https://www.linkedin.com/" target="_blank">
+<a href="YOUR_LINKEDIN_URL" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
@@ -114,6 +166,6 @@ My personal portfolio showcasing my experience, skills, projects, and work as a 
 
 ---
 
-### 💡 "Building interfaces that are beautiful, functional, and built to last."
+### 💡 Building interfaces and applications that are beautiful, functional, scalable, and built to last.
 
 ⭐ Feel free to explore my repositories and connect with me!

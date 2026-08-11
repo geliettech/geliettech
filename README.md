@@ -1,12 +1,10 @@
 # Hi, I'm Oge 👋
 
-### Frontend & Full-Stack Developer | React.js | Next.js | TypeScript | NestJS | PostgreSQL | Firebase | Supabase
+### Frontend & Full-Stack Developer | React • Next.js • TypeScript • NestJS • PostgreSQL
 
-I'm a **Frontend & Full-Stack Developer with 3 years of experience** building responsive, scalable, and user-focused web applications.
+I'm a **Frontend Developer with 3 years of experience** building responsive, scalable, accessible, and user-focused web applications.
 
-I enjoy turning ideas and designs into **clean, accessible, and performant products** with maintainable architecture and reliable engineering solutions.
-
-🌐 **Portfolio:** [ogechiuhegbu.vercel.app](https://ogechiuhegbu.vercel.app)
+I enjoy turning ideas and designs into **clean, performant, and maintainable products**, while continuously growing my expertise in **Full-Stack Development and Software Engineering**.
 
 ---
 
@@ -14,7 +12,7 @@ I enjoy turning ideas and designs into **clean, accessible, and performant produ
 
 - 💻 Frontend & Full-Stack Developer passionate about building modern web applications
 - ⚛️ Experienced with **React.js, Next.js, TypeScript, and JavaScript**
-- 🎨 Build responsive and accessible interfaces with **Tailwind CSS, CSS3, and HTML5**
+- 🎨 Build responsive and accessible interfaces using **Tailwind CSS, CSS3, and HTML5**
 - 🔧 Build backend services and REST APIs with **NestJS**
 - 🗄️ Work with **PostgreSQL, Firebase, and Supabase**
 - 🧩 Interested in scalable, maintainable, and well-structured application architecture
@@ -79,8 +77,6 @@ I enjoy turning ideas and designs into **clean, accessible, and performant produ
 
 > 🔒 Private Project
 
-**Tech:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Go` · `Python`
-
 
 ---
 
@@ -100,8 +96,6 @@ A modern web application focused on delivering a smooth and intuitive user exper
 
 > 🔒 Private Project
 
-**Tech:** `Next.js` · `TypeScript` · `NestJS` · `PostgreSQL` · `Supabase`
-
 
 ---
 
@@ -109,7 +103,7 @@ A modern web application focused on delivering a smooth and intuitive user exper
 
 **Role:** Backend Developer
 
-A backend API developed during a hackathon, focusing on structured endpoints, backend logic, data management, and integration with frontend applications.
+A backend API developed during a hackathon, focusing on structured endpoints, backend logic, data management, authentication, and integration with frontend applications.
 
 **Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
 
@@ -126,7 +120,7 @@ A backend API developed during a hackathon, focusing on structured endpoints, ba
 
 <p align="center">
   <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=tokyonight&hide_border=true"
+    src="https://streak-stats.demolab.com?user=geliettech&theme=tokyonight&hide_border=true"
     alt="GitHub Streak"
   />
 </p>
@@ -144,30 +138,59 @@ A backend API developed during a hackathon, focusing on structured endpoints, ba
 
 Explore my portfolio to see my projects, experience, skills, and work.
 
-### [View My Portfolio →](https://ogechiuhegbu.vercel.app/)
+<p align="center">
+  <a href="https://ogechiuhegbu.vercel.app/" target="_blank">
+    <img
+      src="https://img.shields.io/badge/Visit_My_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
+      alt="Visit My Portfolio"
+    />
+  </a>
+</p>
 
 ---
 
 ## 🤝 Let's Connect
 
 <p align="left">
+  <a href="https://ogechiuhegbu.vercel.app/" target="_blank">
+    <img
+      src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
+      alt="Portfolio"
+    />
+  </a>
 
-<a href="https://ogechiuhegbu.vercel.app" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
+  <a href="https://www.linkedin.com/in/geliettech" target="_blank">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>
 
-<a href="https://www.linkedin.com/in/geliettech" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="https://github.com/geliettech" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
+  <a href="https://github.com/geliettech" target="_blank">
+    <img
+      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+      alt="GitHub"
+    />
+  </a>
 </p>
 
 ---
 
-### 💡 Building interfaces and applications that are beautiful, functional, scalable, and built to last.
+## 💡 What I Care About
 
-⭐ Feel free to explore my repositories and connect with me!
+I enjoy building software that is:
+
+- 🎯 **User-focused**
+- ♿ **Accessible**
+- ⚡ **Fast and performant**
+- 📱 **Responsive**
+- 🧩 **Maintainable**
+- 📈 **Scalable**
+- 🔐 **Secure**
+- 🧪 **Reliable**
+
+---
+
+### 💻 Building interfaces and applications that are beautiful, functional, scalable, and built to last.
+
+⭐ **Feel free to explore my repositories and connect with me!**

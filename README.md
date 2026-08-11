@@ -77,19 +77,25 @@ I enjoy turning ideas and designs into **clean, performant, and maintainable pro
 
 > 🔒 Private Project
 
+---
+
 ### 💰 Fina
 
 **Role:** Web Developer
 
 A modern web application focused on delivering a smooth and intuitive user experience through responsive interfaces and reusable frontend components.
 
-**Tech:** `React` · `JavaScript` · `Firebase` · `TailwindCSS`
+## **Tech:** `React` · `JavaScript` · `Firebase` · `TailwindCSS`
+
+---
 
 ### 💇🏽‍♀️ CeecLuxuryHair — E-commerce Hair Store
 
 **Role:** Full-Stack Developer
 
 > 🔒 Private Project
+
+---
 
 ### 🔌 Hackathon API
 
@@ -158,7 +164,3 @@ A backend API developed during a hackathon, focusing on structured endpoints, ba
 </p>
 
 ---
-
-### 💻 Building interfaces and applications that are beautiful, functional, scalable, and built to last.
-
-⭐ **Feel free to explore my repositories and connect with me!**

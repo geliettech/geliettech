@@ -2,7 +2,7 @@
   <img
     src="https://img.freepik.com/premium-vector/caucasian-female-software-developer-her-40s-debugging-program_1238364-91996.jpg"
     alt="Woman coding"
-    width="100%" height="auto"
+    width="100%"
   />
 </p>
 
@@ -29,7 +29,7 @@
 
 <p align="center">
   <strong>
-    with 3+ years of experience building responsive, scalable, accessible, and user-focused web applications.
+    With 3+ years of experience building responsive, scalable, accessible, and user-focused web applications.
   </strong>
 </p>
 
@@ -54,9 +54,9 @@
 ## 💡 Professional Strengths
 
 - 🤝 Effective Communication & Teamwork
-- 🧠 Excellent Problem Solving & analytical skills
-- 🔍 Attention to detail
-- ⏱️ Time management
+- 🧠 Excellent Problem-Solving & Analytical Skills
+- 🔍 Attention to Detail
+- ⏱️ Time Management
 - 🔄 Adaptability
 
 ---
@@ -131,6 +131,7 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
     alt="GitHub Statistics"
   />
 </p>
+
 <p align="center">
   <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"

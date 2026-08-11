@@ -1,10 +1,23 @@
-# Hi, I'm Oge 👋
+![MasterHead](https://blog.bit.ai/wp-content/uploads/2018/09/How-to-Embed-GitHub-Gists-in-Your-Documents-Blog-Banner.png)
 
-### Frontend & Full-Stack Developer | React • Next.js • TypeScript • NestJS • PostgreSQL
+<h1 align="center">Hi, I'm Oge 👋</h1>
+<h3 align="center">A **Frontend Developer with 3 years of experience** building responsive, scalable, accessible, and user-focused web applications.
 
-I'm a **Frontend Developer with 3 years of experience** building responsive, scalable, accessible, and user-focused web applications.
+I enjoy turning ideas and designs into **clean, performant, and maintainable products**, while continuously growing my expertise in **Full-Stack Development and Software Engineering**.</h3>
 
-I enjoy turning ideas and designs into **clean, performant, and maintainable products**, while continuously growing my expertise in **Full-Stack Development and Software Engineering**.
+<img align= "right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif">
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=geliettech&label=Profile%20views&color=0e75b6&style=flat" alt="geliettech" /> </p>
+
+
+
+
+<a href="https://github.com/geliettech/github-profile-views-counter">
+<img src="https://komarev.com/ghpvc/?username=geliettech">
+</a>
+<a href="https://github.com/geliettech?tab=followers"><img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge"></a>
+
+<br>
 
 ---
 
@@ -53,6 +66,16 @@ I enjoy turning ideas and designs into **clean, performant, and maintainable pro
 
 ---
 
+## 👔 Soft skills
+
+✅ Effective Communication & Teamwork
+▪ Excellent Problem Solving & analytical skills
+▪ Attention to Detail
+▪ Time Management
+▪ Adaptability
+
+---
+
 ## 🚀 What I Build
 
 - 🌐 Responsive websites and web applications
@@ -85,7 +108,7 @@ I enjoy turning ideas and designs into **clean, performant, and maintainable pro
 
 A modern web application focused on delivering a smooth and intuitive user experience through responsive interfaces and reusable frontend components.
 
-## **Tech:** `React` · `JavaScript` · `Firebase` · `TailwindCSS`
+**Tech:** `React` · `JavaScript` · `Firebase` · `TailwindCSS`
 
 ---
 
@@ -109,26 +132,26 @@ A backend API developed during a hackathon, focusing on structured endpoints, ba
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&theme=tokyonight&hide_border=true"
-    alt="Oge's GitHub Stats"
-  />
-  <img
-    src="https://streak-stats.demolab.com?user=geliettech&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-  />
-</p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=dark&hide_border=false" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark&hide_border=false&border_radius=2&hide=contribs" alt="geliettech's Github Statistics" /></p>
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=tokyonight&hide_border=true"
-    alt="Top Languages"
-  />
-</p>
+## <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark" alt="geliettech" /></p>
 
 ---
 
+<b>Note:</b> The top languages shown here is just a measure of what I have posted here on GitHub and not my actual skill level
+<br>
+<br>
+
+[![geliettech's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=geliettech)](https://github.com/geliettech/github-readme-activity-graph)
+
+<br/>
+
+<!---
+geliettech/geliettech is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+---
 ## 🤝 Let's Connect
 
 <p align="left">

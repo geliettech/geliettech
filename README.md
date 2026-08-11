@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif"
+    src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
     alt="Woman coding"
     width="400"
   />

@@ -1,75 +1,83 @@
-# Hi, I'm Oge 👋
+<p align="center">
+  <img
+    src="https://img.freepik.com/premium-vector/caucasian-female-software-developer-her-40s-debugging-program_1238364-91996.jpg"
+    alt="Woman coding"
+    width="100%"
+  />
+</p>
+<p align="center">
+  <a href="https://github.com/geliettech">
+    <img
+      src="https://komarev.com/ghpvc/?username=geliettech&label=Profile%20Views&color=0e75b6&style=flat"
+      alt="Profile Views"
+    />
+  </a>
+  <a href="https://github.com/geliettech?tab=followers">
+    <img
+      src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social"
+      alt="GitHub Followers"
+    />
+  </a>
+</p>
 
-### Frontend & Full-Stack Developer | React • Next.js • TypeScript • NestJS • PostgreSQL
+<h1 align="center">Hi, I'm Oge 👋</h1>
 
-I'm a **Frontend Developer with 3 years of experience** building responsive, scalable, accessible, and user-focused web applications.
+<h3 align="center">
+  A Result-Driven Frontend & Full-Stack Developer
+</h3>
 
-I enjoy turning ideas and designs into **clean, performant, and maintainable products**, while continuously growing my expertise in **Full-Stack Development and Software Engineering**.
+<p align="center">
+  <strong>
+    With 3+ years of experience building responsive, scalable, accessible, and user-focused web applications.
+  </strong>
+</p>
 
----
-
-## 👩🏽‍💻 About Me
-
-- 💻 Frontend & Full-Stack Developer passionate about building modern web applications
-- ⚛️ Experienced with **React.js, Next.js, TypeScript, and JavaScript**
-- 🎨 Build responsive and accessible interfaces using **Tailwind CSS, CSS3, and HTML5**
-- 🔧 Build backend services and REST APIs with **NestJS**
-- 🗄️ Work with **PostgreSQL, Firebase, and Supabase**
-- 🧩 Interested in scalable, maintainable, and well-structured application architecture
-- ⚡ Passionate about performance, accessibility, and great user experiences
-- 📚 Continuously learning and exploring better ways to build for the web
-- 🤝 Open to collaborating on interesting projects and innovative ideas
+<p align="center">
+  I enjoy transforming ideas and designs into clean, performant, and maintainable digital products.
+  I'm continuously expanding my expertise in full-stack development, software engineering, and scalable application architecture.
+</p>
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
+| Category                             | Technologies                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| :----------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **💻 Languages & Core Technologies** | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />          |
+| **⚛️ Frontend Development**          | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />                                                                                                                             |
+| **🔧 Backend & Databases**           | <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" /> |
+| **🧰 Tools & Platforms**             | <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" /> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />                                     |
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+---
 
-### Frontend
+## 💡 Professional Strengths
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-### Backend & Databases
-
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### Tools & Platforms
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+- 🤝 Effective Communication & Teamwork
+- 🧠 Excellent Problem-Solving & Analytical Skills
+- 🔍 Attention to Detail
+- ⏱️ Time Management
+- 🔄 Adaptability
 
 ---
 
 ## 🚀 What I Build
 
-- 🌐 Responsive websites and web applications
-- ⚛️ React & Next.js applications
-- 🔧 REST APIs and backend services
-- 🔐 Authentication and authorization systems
-- 📊 Interactive dashboards and data-driven applications
-- 🗄️ Database-driven applications
-- 📱 Mobile-first responsive interfaces
-- 🧩 Reusable and scalable UI components
-- ⚡ Performance-optimized applications
-- 🎨 Pixel-perfect implementations from Figma designs
-- ☁️ Cloud-connected applications using Firebase and Supabase
+- 🌐 **Modern Web Applications** — Responsive, accessible, and user-focused web experiences
+- ⚛️ **React & Next.js Applications** — Scalable applications with reusable and maintainable components
+- 🎨 **Responsive UI Development** — Mobile-first interfaces built from Figma designs with attention to detail
+- 📊 **Dashboards & Data-Driven Applications** — Interactive dashboards for presenting and managing complex data
+- 🔧 **REST APIs & Backend Services** — Structured APIs and backend services using NestJS
+- 🔐 **Authentication & Authorization** — Secure user authentication and role-based access workflows
+- 🗄️ **Database-Driven Applications** — Applications backed by PostgreSQL, Firebase, and Supabase
+- 🧩 **Reusable UI Systems** — Scalable component architectures designed for consistency and maintainability
+- ⚡ **Performance Optimization** — Fast, efficient, and production-ready applications
+- ☁️ **Cloud-Connected Applications** — Applications integrated with cloud-based services and platforms
+- 🏗️ **Scalable Software Architecture** — Well-structured applications designed for maintainability and growth
+- 🤝 **Collaborative Development** — Working effectively with designers, backend developers, and cross-functional teams
 
 ---
 
-## 📌 Featured Projects
+## 📌 Ongoing Featured Projects
 
 ### ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
 
@@ -77,16 +85,15 @@ I enjoy turning ideas and designs into **clean, performant, and maintainable pro
 
 > 🔒 Private Project
 
-
 ---
 
-### 💰 Fina
+### 💰 Fina — Financial Web Application
 
 **Role:** Web Developer
 
-A modern web application focused on delivering a smooth and intuitive user experience through responsive interfaces and reusable frontend components.
+A modern web application focused on delivering a smooth and intuitive user experience through responsive interfaces, reusable components, and efficient frontend architecture.
 
-**Tech:** `React` · `JavaScript` · `HTML5` · `CSS3`
+**Tech:** `React` · `JavaScript` · `Firebase` · `Tailwind CSS`
 
 ---
 
@@ -96,55 +103,52 @@ A modern web application focused on delivering a smooth and intuitive user exper
 
 > 🔒 Private Project
 
-
 ---
 
 ### 🔌 Hackathon API
 
 **Role:** Backend Developer
 
-A backend API developed during a hackathon, focusing on structured endpoints, backend logic, data management, authentication, and integration with frontend applications.
+A backend API developed during a hackathon, focusing on structured REST endpoints, backend business logic, data management, authentication, and frontend integration.
 
 **Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Statistics
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&theme=tokyonight&hide_border=true"
-    alt="Oge's GitHub Stats"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=geliettech&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=tokyonight&hide_border=true"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=dark&hide_border=false"
     alt="Top Languages"
   />
 </p>
 
----
-
-## 🌐 Portfolio
-
-Explore my portfolio to see my projects, experience, skills, and work.
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark&hide_border=false&border_radius=2&hide=contribs"
+    alt="GitHub Statistics"
+  />
+</p>
 
 <p align="center">
-  <a href="https://ogechiuhegbu.vercel.app/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Visit_My_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
-      alt="Visit My Portfolio"
-    />
-  </a>
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"
+    alt="GitHub Streak"
+  />
+</p>
+
+> **Note:** The language statistics shown above represent the code I've published on GitHub and should not be interpreted as a measure of my overall technical proficiency.
+
+---
+
+## 📈 GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=geliettech"
+    alt="GitHub Activity Graph"
+  />
 </p>
 
 ---
@@ -152,45 +156,60 @@ Explore my portfolio to see my projects, experience, skills, and work.
 ## 🤝 Let's Connect
 
 <p align="left">
-  <a href="https://ogechiuhegbu.vercel.app/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
-      alt="Portfolio"
-    />
-  </a>
 
-  <a href="https://www.linkedin.com/in/geliettech" target="_blank">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
-  </a>
+<a href="https://ogechiuhegbu.vercel.app" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
+    alt="Portfolio"
+  />
+</a>
 
-  <a href="https://github.com/geliettech" target="_blank">
-    <img
-      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
-  </a>
+<a href="https://www.linkedin.com/in/geliettech" target="_blank">
+  <img
+    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="LinkedIn"
+  />
+</a>
+
+<a href="https://github.com/geliettech" target="_blank">
+  <img
+    src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
+</a>
+
+<a href="https://geliettech.medium.com" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"
+    alt="Medium"
+  />
+</a>
+
+<a href="https://www.pinterest.com/geliettech" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white"
+    alt="Pinterest"
+  />
+</a>
+
+<a href="https://www.youtube.com/@geliettech" target="_blank">
+  <img
+    src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
+    alt="YouTube"
+  />
+</a>
+
+<a href="https://www.instagram.com/geliettech" target="_blank">
+  <img
+    src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+    alt="Instagram"
+  />
+</a>
+
 </p>
 
 ---
 
-## 💡 What I Care About
-
-I enjoy building software that is:
-
-- 🎯 **User-focused**
-- ♿ **Accessible**
-- ⚡ **Fast and performant**
-- 📱 **Responsive**
-- 🧩 **Maintainable**
-- 📈 **Scalable**
-- 🔐 **Secure**
-- 🧪 **Reliable**
-
----
-
-### 💻 Building interfaces and applications that are beautiful, functional, scalable, and built to last.
-
-⭐ **Feel free to explore my repositories and connect with me!**
+<p align="center">
+  <i>Building thoughtful digital experiences, one line of code at a time. 🚀</i>
+</p>

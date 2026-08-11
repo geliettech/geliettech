@@ -115,21 +115,8 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 
 ---
 
-## 📊 GitHub Statistics
+## 📈📊 GitHub Activity & Statistics
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact"
-    alt="Top Languages"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark&hide_border=false&border_radius=2&hide=contribs"
-    alt="GitHub Statistics"
-  />
-</p>
 
 <p align="center">
   <img
@@ -137,13 +124,6 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
     alt="GitHub Streak"
   />
 </p>
-
-> **Note:** The language statistics shown above represent the code I've published on GitHub and should not be interpreted as a measure of my overall technical proficiency.
-
----
-
-## 📈 GitHub Activity
-
 <p align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=geliettech"
@@ -151,7 +131,10 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
   />
 </p>
 
+> **Note:** The statistics shown above represent the code I've published on GitHub and should not be interpreted as a measure of my overall technical proficiency.
+
 ---
+
 
 ## 🤝 Let's Connect
 

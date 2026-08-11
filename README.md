@@ -119,7 +119,7 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=dark&hide_border=false"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact"
     alt="Top Languages"
   />
 </p>

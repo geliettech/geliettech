@@ -49,22 +49,26 @@
 ## 📌 Ongoing Featured Projects
 
 ### 1. ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
-**Role:** Frontend Developer
-> 🔒 Private Project
+
+- **Role:** Frontend Developer
+- > 🔒 Private Project
 
 ### 2. 💰 Fina — Financial Web Application
-**Role:** Web Developer
-A modern web application focused on helping users understand their financial health, manage spending, track savings, monitor investments, create budgets, receive Finance Advice, and make smarter financial decisions through a secure and scalable SaaS platform..
-**Tech:** `React` · `JavaScript` · `Firebase` · `Tailwind CSS`
+
+- **Role:** Web Developer
+- A modern web application focused on helping users understand their financial health, manage spending, track savings, monitor investments, create budgets, receive Finance Advice, and make smarter financial decisions through a secure and scalable SaaS platform..
+- **Tech:** `React` · `JavaScript` · `Firebase` · `Tailwind CSS`
 
 ### 3. 💇🏽‍♀️ CeecLuxuryHair — E-commerce Hair Store
-**Role:** Full-Stack Developer
-> 🔒 Private Project
+
+- **Role:** Full-Stack Developer
+- > 🔒 Private Project
 
 ### 4. 🔌 Hackathon API
-**Role:** Backend Developer
-A scalable hackathon role base API Auth where Admins and Participants have different permissions.
-**Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
+
+- **Role:** Backend Developer
+- A scalable hackathon role base API Auth where Admins and Participants have different permissions.
+- **Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
 
 ---
 

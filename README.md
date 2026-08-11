@@ -6,13 +6,15 @@
   />
 </p>
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/geliettech/github-profile-views-counter">
     <img src="https://komarev.com/ghpvc/?username=geliettech">
 </a>
-
-<a href="https://github.com/geliettech?tab=followers"><img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge"></a>
-
+</p>
+<p align="left">
+<a href="https://github.com/geliettech?tab=followers">
+<img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge">
+</a>
 </p>
 
 <h1 align="center">Hi, I'm Oge 👋</h1>

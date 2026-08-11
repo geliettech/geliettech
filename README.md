@@ -6,17 +6,6 @@
   />
 </p>
 
-<p align="left">
-  <a href="https://github.com/geliettech/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=geliettech">
-</a>
-</p>
-<p align="left">
-<a href="https://github.com/geliettech?tab=followers">
-<img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge">
-</a>
-</p>
-
 <h1 align="center">Hi, I'm Oge 👋</h1>
 
 <h3 align="center">
@@ -98,6 +87,20 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 ## 📈📊 GitHub Activity & Statistics
 
 <p align="center">
+  <a href="https://github.com/geliettech/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=geliettech">
+</a>
+</p>
+<p align="center">
+<a href="https://github.com/geliettech/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=geliettech">
+</a>
+<a href="https://github.com/geliettech?tab=followers">
+<img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge">
+</a>
+</p>
+<p align="center">
+
   <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"
     alt="GitHub Streak"

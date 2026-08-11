@@ -87,11 +87,6 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 ## 📈📊 GitHub Activity & Statistics
 
 <p align="center">
-  <a href="https://github.com/geliettech/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=geliettech">
-</a>
-</p>
-<p align="center">
 <a href="https://github.com/geliettech/github-profile-views-counter">
     <img src="https://komarev.com/ghpvc/?username=geliettech">
 </a>
@@ -100,11 +95,11 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 </a>
 </p>
 <p align="center">
-
-  <img
+<img
     src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"
     alt="GitHub Streak"
   />
+
 </p>
 <p align="center">
   <img

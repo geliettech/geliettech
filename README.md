@@ -5,19 +5,14 @@
     width="100%"
   />
 </p>
+
 <p align="center">
-  <a href="https://github.com/geliettech">
-    <img
-      src="https://komarev.com/ghpvc/?username=geliettech&label=Profile%20Views&color=0e75b6&style=flat"
-      alt="Profile Views"
-    />
-  </a>
-  <a href="https://github.com/geliettech?tab=followers">
-    <img
-      src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social"
-      alt="GitHub Followers"
-    />
-  </a>
+  <a href="https://github.com/geliettech/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=geliettech">
+</a>
+
+<a href="https://github.com/geliettech?tab=followers"><img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Badge"></a>
+
 </p>
 
 <h1 align="center">Hi, I'm Oge 👋</h1>

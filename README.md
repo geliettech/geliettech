@@ -4,7 +4,7 @@
 
 I'm a **Frontend & Full-Stack Developer with 3 years of experience** building responsive, scalable, and user-focused web applications.
 
-I enjoy turning ideas and designs into clean, accessible, and performant products while focusing on maintainable architecture, great user experiences, and reliable solutions.
+I enjoy turning ideas and designs into **clean, accessible, and performant products** with maintainable architecture and reliable engineering solutions.
 
 🌐 **Portfolio:** [ogechiuhegbu.vercel.app](https://ogechiuhegbu.vercel.app)
 
@@ -14,11 +14,11 @@ I enjoy turning ideas and designs into clean, accessible, and performant product
 
 - 💻 Frontend & Full-Stack Developer passionate about building modern web applications
 - ⚛️ Experienced with **React.js, Next.js, TypeScript, and JavaScript**
-- 🎨 Experienced in building responsive interfaces with **Tailwind CSS, CSS3, and HTML5**
-- 🔧 Building backend services and APIs with **NestJS**
-- 🗄️ Working with **PostgreSQL, Firebase, and Supabase**
+- 🎨 Build responsive and accessible interfaces with **Tailwind CSS, CSS3, and HTML5**
+- 🔧 Build backend services and REST APIs with **NestJS**
+- 🗄️ Work with **PostgreSQL, Firebase, and Supabase**
 - 🧩 Interested in scalable, maintainable, and well-structured application architecture
-- 🚀 Passionate about performance, accessibility, and great user experiences
+- ⚡ Passionate about performance, accessibility, and great user experiences
 - 📚 Continuously learning and exploring better ways to build for the web
 - 🤝 Open to collaborating on interesting projects and innovative ideas
 
@@ -63,7 +63,7 @@ I enjoy turning ideas and designs into clean, accessible, and performant product
 - 🔐 Authentication and authorization systems
 - 📊 Interactive dashboards and data-driven applications
 - 🗄️ Database-driven applications
-- 📱 Mobile-first and responsive interfaces
+- 📱 Mobile-first responsive interfaces
 - 🧩 Reusable and scalable UI components
 - ⚡ Performance-optimized applications
 - 🎨 Pixel-perfect implementations from Figma designs
@@ -73,13 +73,14 @@ I enjoy turning ideas and designs into clean, accessible, and performant product
 
 ## 📌 Featured Projects
 
-### ☁️ Multi-Tenant Cloud Cost Optimization Platform
+### ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
 
 **Role:** Frontend Developer
 
-A multi-tenant cloud cost optimization platform that helps organizations analyze cloud spending, identify waste, forecast costs, detect anomalies, and discover actionable cost-saving opportunities.
+> 🔒 Private Project
 
-**Tech:** `Private Project`
+**Tech:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Go` · `Python`
+
 
 ---
 
@@ -93,13 +94,14 @@ A modern web application focused on delivering a smooth and intuitive user exper
 
 ---
 
-### 💇🏽‍♀️ CeecLuuryHair
+### 💇🏽‍♀️ CeecLuxuryHair — E-commerce Hair Store
 
 **Role:** Full-Stack Developer
 
-A full-stack web application designed to provide users with a seamless experience for exploring and interacting with hair and beauty services/products.
+> 🔒 Private Project
 
-**Tech:** `Private Project`
+**Tech:** `Next.js` · `TypeScript` · `NestJS` · `PostgreSQL` · `Supabase`
+
 
 ---
 
@@ -113,36 +115,36 @@ A backend API developed during a hackathon, focusing on structured endpoints, ba
 
 ---
 
-## 💼 Portfolio
-
-Explore my portfolio to see my projects, experience, skills, and work.
-
-🌐 **[View My Portfolio →](https://ogechiuhegbu.vercel.app/)**
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"
+    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&theme=tokyonight&hide_border=true"
     alt="Oge's GitHub Stats"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=tokyonight&hide_border=true"
     alt="GitHub Streak"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=tokyonight&hide_border=true"
     alt="Top Languages"
   />
 </p>
+
+---
+
+## 🌐 Portfolio
+
+Explore my portfolio to see my projects, experience, skills, and work.
+
+### [View My Portfolio →](https://ogechiuhegbu.vercel.app/)
 
 ---
 
@@ -150,15 +152,15 @@ Explore my portfolio to see my projects, experience, skills, and work.
 
 <p align="left">
 
-<a href="https://ogechiuhegbu.vercel.app/" target="_blank">
+<a href="https://ogechiuhegbu.vercel.app" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
-<a href="YOUR_LINKEDIN_URL" target="_blank">
+<a href="https://www.linkedin.com/in/geliettech" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">
+<a href="https://github.com/geliettech" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 

@@ -1,6 +1,6 @@
 # Hi, I'm Oge 👋
 
-### Frontend & Full-Stack Developer | React.js | Next.js | TypeScript | NestJS
+### Frontend & Full-Stack Developer | React.js | Next.js | TypeScript | NestJS | PostgreSQL | Firebase | Supabase
 
 I'm a **Frontend & Full-Stack Developer with 3 years of experience** building responsive, scalable, and user-focused web applications.
 

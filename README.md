@@ -60,23 +60,6 @@
 
 ---
 
-## 🚀 What I Build
-
-- 🌐 **Modern Web Applications** — Responsive, accessible, and user-focused web experiences
-- ⚛️ **React & Next.js Applications** — Scalable applications with reusable and maintainable components
-- 🎨 **Responsive UI Development** — Mobile-first interfaces built from Figma designs with attention to detail
-- 📊 **Dashboards & Data-Driven Applications** — Interactive dashboards for presenting and managing complex data
-- 🔧 **REST APIs & Backend Services** — Structured APIs and backend services using NestJS
-- 🔐 **Authentication & Authorization** — Secure user authentication and role-based access workflows
-- 🗄️ **Database-Driven Applications** — Applications backed by PostgreSQL, Firebase, and Supabase
-- 🧩 **Reusable UI Systems** — Scalable component architectures designed for consistency and maintainability
-- ⚡ **Performance Optimization** — Fast, efficient, and production-ready applications
-- ☁️ **Cloud-Connected Applications** — Applications integrated with cloud-based services and platforms
-- 🏗️ **Scalable Software Architecture** — Well-structured applications designed for maintainability and growth
-- 🤝 **Collaborative Development** — Working effectively with designers, backend developers, and cross-functional teams
-
----
-
 ## 📌 Ongoing Featured Projects
 
 ### ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
@@ -117,7 +100,6 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 
 ## 📈📊 GitHub Activity & Statistics
 
-
 <p align="center">
   <img
     src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"
@@ -134,7 +116,6 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 > **Note:** The statistics shown above represent the code I've published on GitHub and should not be interpreted as a measure of my overall technical proficiency.
 
 ---
-
 
 ## 🤝 Let's Connect
 

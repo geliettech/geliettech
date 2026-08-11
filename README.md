@@ -1,19 +1,26 @@
 <p align="center">
-  <img 
-    src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif" 
-    alt="Woman coding" 
+  <img
+    src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif"
+    alt="Woman coding"
     width="400"
   />
 </p>
 
 <p align="center">
   <a href="https://github.com/geliettech">
-    <img src="https://komarev.com/ghpvc/?username=geliettech&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+    <img
+      src="https://komarev.com/ghpvc/?username=geliettech&label=Profile%20Views&color=0e75b6&style=flat"
+      alt="Profile Views"
+    />
   </a>
   <a href="https://github.com/geliettech?tab=followers">
-    <img src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social" alt="GitHub Followers" />
+    <img
+      src="https://img.shields.io/github/followers/geliettech?label=Followers&style=social"
+      alt="GitHub Followers"
+    />
   </a>
 </p>
+
 <h1 align="center">Hi, I'm Oge 👋</h1>
 
 <h3 align="center">
@@ -21,7 +28,9 @@
 </h3>
 
 <p align="center">
-  <strong>with 3+ years of experience building responsive, scalable, accessible, and user-focused web applications.</strong>
+  <strong>
+    with 3+ years of experience building responsive, scalable, accessible, and user-focused web applications.
+  </strong>
 </p>
 
 <p align="center">
@@ -67,7 +76,6 @@
 - 🏗️ **Scalable Software Architecture** — Well-structured applications designed for maintainability and growth
 - 🤝 **Collaborative Development** — Working effectively with designers, backend developers, and cross-functional teams
 
-
 ---
 
 ## 📌 Ongoing Featured Projects
@@ -111,23 +119,23 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=dark&hide_border=false" 
-    alt="Top Languages" 
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=geliettech&layout=compact&theme=dark&hide_border=false"
+    alt="Top Languages"
   />
 </p>
 
 <p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark&hide_border=false&border_radius=2&hide=contribs" 
-    alt="GitHub Statistics" 
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=geliettech&show_icons=true&include_all_commits=true&count_private=true&layout=compact&theme=dark&hide_border=false&border_radius=2&hide=contribs"
+    alt="GitHub Statistics"
   />
 </p>
 
 <p align="center">
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark" 
-    alt="GitHub Streak" 
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=geliettech&theme=dark"
+    alt="GitHub Streak"
   />
 </p>
 
@@ -138,9 +146,9 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 ## 📈 GitHub Activity
 
 <p align="center">
-  <img 
-    src="https://github-readme-activity-graph.vercel.app/graph?username=geliettech" 
-    alt="GitHub Activity Graph" 
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=geliettech"
+    alt="GitHub Activity Graph"
   />
 </p>
 
@@ -151,50 +159,50 @@ A backend API developed during a hackathon, focusing on structured REST endpoint
 <p align="left">
 
 <a href="https://ogechiuhegbu.vercel.app" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" 
+  <img
+    src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"
     alt="Portfolio"
   />
 </a>
 
 <a href="https://www.linkedin.com/in/geliettech" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" 
+  <img
+    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
     alt="LinkedIn"
   />
 </a>
 
 <a href="https://github.com/geliettech" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" 
+  <img
+    src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
     alt="GitHub"
   />
 </a>
 
 <a href="https://geliettech.medium.com" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" 
+  <img
+    src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"
     alt="Medium"
   />
 </a>
 
 <a href="https://www.pinterest.com/geliettech" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" 
+  <img
+    src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white"
     alt="Pinterest"
   />
 </a>
 
 <a href="https://www.youtube.com/@geliettech" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" 
+  <img
+    src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
     alt="YouTube"
   />
 </a>
 
 <a href="https://www.instagram.com/geliettech" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" 
+  <img
+    src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
     alt="Instagram"
   />
 </a>

@@ -2,7 +2,7 @@
   <img
     src="https://img.freepik.com/premium-vector/caucasian-female-software-developer-her-40s-debugging-program_1238364-91996.jpg"
     alt="Woman coding"
-    width="800"
+    width="100%"
   />
 </p>
 

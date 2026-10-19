@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar";
-import { StarBackground } from "@/components/StarBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
@@ -9,13 +8,14 @@ import Contact from "../components/Contact";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 import Experience from "../components/Experience";
+import Education from "../components/Education";
+import Credentials from "../components/Credentials";
+import { StarBackground } from "../components/StarBackground";
 
 export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-      {/* Background Effects */}
       <StarBackground />
-
       {/* Navbar */}
       <Navbar />
 
@@ -25,7 +25,9 @@ export const Home = () => {
         <About />
         <Skills />
         <Experience />
+        <Education />
         <Projects />
+        <Credentials />
         <Article />
         <Testimonials />
         <Contact />

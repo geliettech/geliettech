@@ -1,126 +1,107 @@
-import { FaBriefcase, FaCode, FaLaptop } from "react-icons/fa6";
+import { motion as Motion } from "framer-motion";
+import {
+  FaArrowDown,
+  FaCode,
+  FaLayerGroup,
+  FaServer,
+  FaWandMagicSparkles,
+} from "react-icons/fa6";
 import CV from "../assets/OGECHI_JULIET_UHEGBU_Resume.pdf";
-import Profile from "../assets/img/about/profile.jpg";
 
+const focusAreas = [
+  {
+    icon: FaCode,
+    title: "Frontend engineering",
+    description: "Building responsive, accessible interfaces with modern web tools.",
+  },
+  {
+    icon: FaWandMagicSparkles,
+    title: "Product-minded design",
+    description: "Turning visual direction into clear, polished user journeys.",
+  },
+  {
+    icon: FaLayerGroup,
+    title: "Thoughtful delivery",
+    description: "Creating reusable components that stay maintainable as products grow.",
+  },
+  {
+    icon: FaServer,
+    title: "Full-stack development",
+    description:
+      "Building complete web experiences across frontend interfaces, server-side logic, and data.",
+  },
+];
 
-const About = () => {
-  const startDate = new Date("2023-8-20");
-  const currentDate = new Date();
-
-
-  let years = currentDate.getFullYear() - startDate.getFullYear();
-  let months = currentDate.getMonth() - startDate.getMonth();
-
-  if (months < 0 || (months = 0 && currentDate.getDate() < startDate.getDate()) ) {
-    years--;
-    months += 12;
-  }
-
-  const display = years;
-
-  return (
-
-    <section id="about" className="py-16 md:py-24 relative">
-      <div className="container mx-auto px-4 md:px-8 max-w-6xl">
-        {/* Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold mb-10 md:mb-12">
-          👩🏽‍💻 About <span className="text-primary"> Me</span>
-        </h2>
-        {/* Profile Image */}
-        <div className="flex justify-center mb-10 md:mb-12">
-          <div className="w-40 h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 animate-fade-in-delay-1">
-            <img
-              src={Profile}
-              alt="Profile"
-              className="w-full h-full object-cover rounded-xl shadow-md"
-            />
-          </div>
-        </div>
-        {/* Main Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
-          {/* Left Text Section */}
-          <div className="space-y-6">
-            <h3 className="text-xl md:text-2xl font-semibold">
-              Passionate Frontend & Web Developer
-            </h3>
-
-            <p className="text-sm md:text-base text-muted-foreground">
-              With B.Sc. in Computer Science & Informatics and&nbsp;{display}&nbsp;years hands-on experience building responsive, accessible, and performance-optimized web applications using modern technologies.
+const About = () => (
+  <section id="about" className="section-shell">
+    <div className="container mx-auto max-w-6xl px-4 md:px-8">
+      <Motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.5 }}
+      >
+        <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+          <div className="text-left">
+            <p className="section-kicker">A little about me</p>
+            <h2 className="section-title">
+              I care about the <span className="text-primary">details</span>
+              <span className="text-primary">.</span>
+            </h2>
+            <p className="mt-6 text-base leading-8 text-muted-foreground">
+              I’m a frontend and full-stack developer with a B.Sc. in Computer
+              Science & Informatics. I enjoy taking a product from a thoughtful design
+              through to a fast, accessible experience people love using.
             </p>
-
-            <p className="text-sm md:text-base text-muted-foreground">
-              I’ve worked with startups and clients to develop real-world solutions using React, Next.js, Tailwind CSS, Firebase, and modern UI systems.
+            <p className="mt-4 text-base leading-8 text-muted-foreground">
+              From landing pages to full web applications, I bring curiosity,
+              care, and a focus on making every screen feel considered.
             </p>
-            <p className="text-sm md:text-base text-muted-foreground">
-              I focus on writing clean, maintainable code and creating user experiences that solve real problems.
-            </p>
-            {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
-                Get In Touch
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a
+                href="#contact"
+                className="cosmic-button inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm"
+              >
+                Say hello <FaArrowDown aria-hidden="true" size={13} />
               </a>
-
               <a
                 href={CV}
                 download
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                className="inline-flex items-center rounded-xl border border-border bg-card px-5 py-3 text-sm font-semibold transition hover:border-primary hover:text-primary"
               >
-                Download CV
+                Download résumé
               </a>
             </div>
           </div>
-          {/* Right Cards Section */}
-          <div className="grid grid-cols-1 gap-6">
-            {/* Card 1 */}
-            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10 shrink-0">
-                  <FaCode className="h-5 w-5 md:h-6 md:w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-base md:text-lg">
-                    Frontend Development
-                  </h4>
-                  <p className="text-sm md:text-base text-muted-foreground">
-                    Building high-performance, responsive, and accessible user interfaces in Agile environments.
+          <div className="grid gap-4 sm:grid-cols-2">
+            {focusAreas.map((area, index) => {
+              const Icon = area.icon;
+              return (
+                <Motion.article
+                  key={area.title}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: index * 0.08 }}
+                  className={`rounded-2xl border border-border/80 bg-card p-6 text-left shadow-sm ${
+                    index === 0 ? "sm:col-span-2" : ""
+                  }`}
+                >
+                  <span className="mb-6 inline-flex rounded-xl bg-primary/10 p-3 text-primary">
+                    <Icon aria-hidden="true" size={19} />
+                  </span>
+                  <h3 className="text-base font-semibold">{area.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                    {area.description}
                   </p>
-                </div>
-              </div>
-            </div>
-            {/* Card 2 */}
-            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10 shrink-0">
-                  <FaLaptop className="h-5 w-5 md:h-6 md:w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-base md:text-lg">Web Development</h4>
-                  <p className="text-sm md:text-base text-muted-foreground">
-                    Creating responsive websites and web applications with modern technologies.
-                  </p>
-                </div>
-              </div>
-            </div>
-            {/* Card 3 */}
-            <div className="bg-card p-6 rounded-lg shadow-xs card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10 shrink-0">
-                  <FaBriefcase className="h-5 w-5 md:h-6 md:w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-base md:text-lg">Responsive Web Design</h4>
-                  <p className="text-sm md:text-base text-muted-foreground">
-                    Building fully responsive layouts using modern CSS techniques and frameworks.
-                  </p>
-                </div>
-              </div>
-            </div>
+                </Motion.article>
+              );
+            })}
           </div>
         </div>
-      </div>
-    </section>
-  );
-};
+      </Motion.div>
+    </div>
+  </section>
+);
 
 export default About;

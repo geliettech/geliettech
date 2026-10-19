@@ -53,23 +53,24 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 relative">
+    <section id="contact" className="section-shell">
       <div className="container mx-auto px-4 md:px-8 max-w-6xl">
         {/* Header */}
-        <header className="mb-10 md:mb-12">
-          <h2 className="text-2xl md:text-4xl font-bold mb-4">
-            Get In  <span className="text-primary">Touch</span>
+        <header className="mb-12 text-left md:mb-14">
+          <p className="section-kicker">Have an idea?</p>
+          <h2 className="section-title">
+            Let’s make something <span className="text-primary">great</span>
           </h2>
-          <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 max-w-2xl text-sm leading-7 text-muted-foreground md:text-base">
             Have a project in mind or want to collaborate? Feel free to reach out.
             I'm always open to discussing new opportunities.
           </p>
         </header>
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-[0.85fr_1.15fr] md:gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
-            <h3 className="text-xl md:text-2xl font-semibold">Contact Information</h3>
+            <h3 className="text-lg font-semibold">Contact information</h3>
             {/* Info Items */}
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -77,7 +78,7 @@ export const Contact = () => {
                   <FaEnvelope className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="text-sm md:text-base font-medium">Email</h4>
+                  <h4 className="text-sm font-medium">Email</h4>
                   <a
                     href="mailto:julietogechi27@gmail.com"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -92,7 +93,7 @@ export const Contact = () => {
                   <FaLocationDot className="h-5 w-5 md:h-6 md:w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="text-sm md:text-base font-medium">Location</h4>
+                  <h4 className="text-sm font-medium">Location</h4>
                   <p className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300">Lagos, Nigeria</p>
                 </div>
               </div>
@@ -102,33 +103,42 @@ export const Contact = () => {
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex justify-center gap-6 md:gap-10 items-center">
                 {/* Icons */}
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-3 gap-4">
                   <a
                     href="https://www.linkedin.com/in/geliettech"
-                    target="_blank" className="hover:text-primary transition-colors duration-300"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="LinkedIn"
+                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-border bg-card text-muted-foreground transition hover:border-primary hover:bg-primary/5 hover:text-primary"
                   >
                     <FaLinkedin size={20} />
                   </a>
-                  <a href="https://www.x.com/geliettech" target="_blank" className="hover:text-primary transition-colors duration-300">
+                  <a href="https://www.x.com/geliettech" target="_blank" rel="noreferrer" aria-label="X" className="flex h-11 w-11 items-center justify-center rounded-xl border border-border bg-card text-muted-foreground transition hover:border-primary hover:bg-primary/5 hover:text-primary">
                     <FaXTwitter size={20} />
                   </a>
                   <a
-                    href="https://www.instagram.com/geliettech" className="hover:text-primary transition-colors duration-300"
+                    href="https://www.instagram.com/geliettech"
                     target="_blank"
+                    rel="noreferrer"
+                    aria-label="Instagram"
+                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-border bg-card text-muted-foreground transition hover:border-primary hover:bg-primary/5 hover:text-primary"
                   >
                     <FaInstagram size={20} />
                   </a>
                   <a
                     href="https://www.pinterest.com/geliettech"
-                    target="_blank" className="hover:text-primary transition-colors duration-300"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Pinterest"
+                    className="flex h-11 w-11 items-center justify-center rounded-xl border border-border bg-card text-muted-foreground transition hover:border-primary hover:bg-primary/5 hover:text-primary"
                   >
                     <FaPinterest size={20} />
                   </a>
-                  <a href="https://www.youtube.com/@geliettech" target="_blank" className="hover:text-primary transition-colors duration-300">
+                  <a href="https://www.youtube.com/@geliettech" target="_blank" rel="noreferrer" aria-label="YouTube" className="flex h-11 w-11 items-center justify-center rounded-xl border border-border bg-card text-muted-foreground transition hover:border-primary hover:bg-primary/5 hover:text-primary">
                     <FaYoutube size={20} />
                   </a>
 
-                  <a href="https://geliettech.medium.com" target="_blank" className="hover:text-primary transition-colors duration-300">
+                  <a href="https://geliettech.medium.com" target="_blank" rel="noreferrer" aria-label="Medium" className="flex h-11 w-11 items-center justify-center rounded-xl border border-border bg-card text-muted-foreground transition hover:border-primary hover:bg-primary/5 hover:text-primary">
                     <SiMedium size={20} />
                   </a>
                 </div>
@@ -146,8 +156,8 @@ export const Contact = () => {
           </div>
 
           {/* Form */}
-          <div className="bg-card p-5 sm:p-6 md:p-8 rounded-lg shadow-sm">
-            <h3 className="text-xl md:text-2xl font-semibold mb-6">Send a Message</h3>
+          <div className="rounded-[1.5rem] border border-border/80 bg-card p-5 shadow-sm sm:p-6 md:p-8">
+            <h3 className="mb-6 text-xl font-semibold">Send a message</h3>
 
             <form className="space-y-6" onSubmit={sendEmail}>
               <div>
@@ -206,7 +216,7 @@ export const Contact = () => {
                 type="submit"
                 disabled={isSubmitting}
                 className={cn(
-                  "cosmic-button w-full flex items-center justify-center gap-2 text-sm md:text-base",
+                  "cosmic-button flex min-h-14 w-full items-center justify-center gap-2 px-6 py-4 text-base md:min-h-16 md:text-lg",
                   isSubmitting && "opacity-60 cursor-not-allowed"
                 )}
               >

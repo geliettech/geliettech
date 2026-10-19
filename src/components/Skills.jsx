@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion as Motion } from "framer-motion";
 import { cn } from "../lib/utils";
 import { skills } from "../constants/data";
 
@@ -6,64 +7,69 @@ const categories = ["all", "frontend", "BaaS", "database", "backend", "tools"];
 
 const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("all");
-
   const filteredSkills = skills.filter(
     (skill) => activeCategory === "all" || skill.category === activeCategory,
   );
-  return (
-    <section id="skills" className="py-16 md:py-24 relative">
-      <div className="container mx-auto max-w-6xl px-4 md:px-8">
-        <h2 className="text-2xl md:text-4xl font-bold mb-10 md:mb-12">
-          🛠️ My <span className="text-primary"> Skills</span>
-        </h2>
 
-        <div className="flex flex-wrap justify-center gap-3 md:gap-4 mb-10 md:mb-12">
-          {categories.map((category, index) => (
+  return (
+    <section id="skills" className="section-shell bg-primary/[0.035]">
+      <div className="container mx-auto max-w-6xl px-4 md:px-8">
+        <header className="mb-10 flex flex-col justify-between gap-6 text-left md:flex-row md:items-end">
+          <div>
+            <p className="section-kicker">My toolkit</p>
+            <h2 className="section-title">
+              Skills & <span className="text-primary">technologies</span>
+            </h2>
+          </div>
+          <p className="max-w-md text-sm leading-7 text-muted-foreground md:text-base">
+            A growing set of tools I use to shape ideas into useful digital
+            experiences.
+          </p>
+        </header>
+
+        <div className="mb-8 flex flex-wrap gap-2">
+          {categories.map((category) => (
             <button
-              key={index}
+              key={category}
+              type="button"
               onClick={() => setActiveCategory(category)}
               className={cn(
-                "px-4 md:px-5 py-2 rounded-full text-sm md:text-base transition-all duration-300 capitalize",
+                "rounded-full border px-4 py-2 text-sm capitalize transition",
                 activeCategory === category
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-primary/10 text-foreground hover:bg-primary/50 hover:text-primary-foreground",
+                  ? "border-primary bg-primary text-primary-foreground"
+                  : "border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground",
               )}
             >
-              {category}
+              {category === "BaaS" ? "Cloud & BaaS" : category}
             </button>
           ))}
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {filteredSkills.map((skill, index) => {
+        <Motion.div
+          layout
+          className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6"
+        >
+          {filteredSkills.map((skill) => {
             const Icon = skill.icon;
             return (
-              <div
-                key={index}
-                className="bg-card p-6 rounded-lg shadow-xs card-hover"
+              <Motion.div
+                layout
+                key={skill.name}
+                initial={{ opacity: 0, scale: 0.96 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="flex min-h-28 flex-col items-start justify-between rounded-2xl border border-border/80 bg-card p-4 text-left transition hover:-translate-y-1 hover:border-primary/35 hover:shadow-lg"
               >
-                <div className="text-left mb-4 flex items-center gap-2">
-                  <h3 className="font-semibold text-sm md:text-base"> {skill.name}</h3>
-                  <div className="w-5 h-5 md:w-6 md:h-6" aria-label={skill.name}>
-                    <Icon className="w-full h-full" />
-                  </div>
+                <Icon className="h-5 w-5 text-primary" aria-hidden="true" />
+                <div>
+                  <p className="text-sm font-semibold">{skill.name}</p>
+                  <p className="mt-1 text-[10px] uppercase tracking-wider text-muted-foreground">
+                    {skill.category}
+                  </p>
                 </div>
-                <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
-                  <div
-                    className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                    style={{ width: skill.level + "%" }}
-                  />
-                </div>
-
-                <div className="text-right mt-1">
-                  <span className="text-sm text-muted-foreground">
-                    {skill.level}%
-                  </span>
-                </div>
-              </div>
-            )
+              </Motion.div>
+            );
           })}
-        </div>
+        </Motion.div>
       </div>
     </section>
   );

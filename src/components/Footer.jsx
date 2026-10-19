@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="text-left">
           <p className="font-semibold">Ogechi Juliet Uhegbu</p>
           <p className="mt-1 text-xs text-muted-foreground">
-            © 2023 - 2026 · Designed and built with care.
+            © 2023 - 2026 · Designed and built with care.❤️
           </p>
         </div>
         <div className="flex items-center gap-3">

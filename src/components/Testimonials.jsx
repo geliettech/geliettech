@@ -7,13 +7,14 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-16 md:py-24 relative">
+    <section id="testimonials" className="section-shell">
       <div className="container mx-auto max-w-6xl px-4 md:px-8">
-        <header className="mb-10 md:mb-12">
-          <h2 className="text-2xl md:text-4xl font-bold mb-4">
-            Testi<span className="text-primary">monials</span>
+        <header className="mb-12 text-left md:mb-14">
+          <p className="section-kicker">Kind words</p>
+          <h2 className="section-title">
+            What people <span className="text-primary">say</span>
           </h2>
-          <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 max-w-2xl text-sm leading-7 text-muted-foreground md:text-base">
             Discover what clients, business owners, and team members are saying about their experience working with me.
           </p>
         </header>
@@ -33,11 +34,12 @@ const Testimonials = () => {
           {recommendations.map((rec) => (
             <SwiperSlide
               key={rec.id} className="h-full">
-              <div
-                className="h-full flex flex-col justify-between bg-card p-5 md:p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">{rec.message}</p>
-                <p className="mt-6 text-right text-primary font-semibold text-sm md:text-base">— {rec.name}</p>
+              <div className="flex h-full flex-col justify-between rounded-2xl border border-border/80 bg-card p-6 text-left shadow-sm transition hover:shadow-lg md:p-8">
+                <p className="text-base leading-8 text-muted-foreground md:text-lg">“{rec.message}”</p>
+                <div className="mt-6">
+                  <p className="text-sm font-semibold text-foreground">{rec.name}</p>
+                  <p className="mt-1 text-xs font-medium text-primary">{rec.role}</p>
+                </div>
               </div>
             </SwiperSlide>
           ))}

@@ -1,282 +1,83 @@
-// ===============================
-// PAGE TRANSITIONS
-// ===============================
-
 export const pageVariants = {
-  initial: { opacity: 0, y: 40 },
+  initial: { opacity: 0, y: 24 },
   animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -40 },
+  exit: { opacity: 0, y: -16 },
 };
 
 export const pageTransition = {
-  duration: 0.6,
-  ease: "easeInOut",
+  duration: 0.45,
+  ease: [0.22, 1, 0.36, 1],
 };
-// ===============================
-// FADE IN
-// ===============================
+
+export const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.65,
+      ease: [0.22, 1, 0.36, 1],
+    },
+  },
+};
+
+export const fadeUpDelayed = (delay = 0.12) => ({
+  ...fadeUp,
+  visible: {
+    ...fadeUp.visible,
+    transition: {
+      ...fadeUp.visible.transition,
+      delay,
+    },
+  },
+});
 
 export const fadeIn = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: {
-      duration: 0.7,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.55, ease: "easeOut" },
   },
 };
-
-// ===============================
-// SCALE IN
-// ===============================
 
 export const scaleIn = {
-  hidden: { opacity: 0, scale: 0.8 },
+  hidden: { opacity: 0, scale: 0.96 },
   visible: {
     opacity: 1,
     scale: 1,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] },
   },
 };
-
-// ===============================
-// BOUNCE IN
-// ===============================
-
-export const bounceIn = {
-  hidden: { opacity: 0, scale: 0.5 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: {
-      type: "spring",
-      stiffness: 200,
-      damping: 12,
-    },
-  },
-};
-
-// ===============================
-// SLIDE UP
-// ===============================
-
-export const slideUp = {
-  hidden: { opacity: 0, y: 40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
-  },
-};
-
-// ===============================
-// SLIDE DOWN
-// ===============================
-
-export const slideDown = {
-  hidden: { opacity: 0, y: -40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
-  },
-};
-
-// ===============================
-// SLIDE LEFT
-// ===============================
-
-export const slideLeft = {
-  hidden: { opacity: 0, x: 40 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
-  },
-};
-// ===============================
-// SLIDE RIGHT
-// ===============================
-
-export const slideRight = {
-  hidden: { opacity: 0, x: -40 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
-  },
-};
-// ===============================
-// ROTATE IN
-// ===============================
-
-export const rotateIn = {
-  hidden: { opacity: 0, rotate: -90 },
-  visible: {
-    opacity: 1,
-    rotate: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
-  },
-};
-
-// ===============================
-// ZOOM IN
-// ===============================
-
-export const zoomIn = {
-  hidden: { opacity: 0, scale: 0.6 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 0.6, ease: "easeOut" },
-  },
-};
-
-// ===============================
-// STAGGER CONTAINER
-// ===============================
 
 export const staggerContainer = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.12,
+      staggerChildren: 0.1,
+      delayChildren: 0.05,
     },
   },
 };
 
-// ===============================
-// NAV ITEM
-// ===============================
-
-export const navItem = {
-  hidden: { opacity: 0, y: -10 },
+export const staggerItem = {
+  hidden: { opacity: 0, y: 16 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] },
   },
 };
-
-// ===============================
-// DROPDOWN
-// ===============================
-
-export const dropdown = {
-  hidden: { opacity: 0, y: 10 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
-  },
-  exit: { opacity: 0, y: 10 },
-};
-
-// ===============================
-// MOBILE MENU
-// ===============================
 
 export const mobileMenu = {
-  hidden: { opacity: 0, x: 100 },
+  hidden: { opacity: 0, x: 24 },
   visible: {
     opacity: 1,
     x: 0,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.22, ease: "easeOut" },
   },
-  exit: { opacity: 0, x: 100 },
-};
-
-
-
-// ===============================
-// FRAMER MOTION: CSS/Tailwind ANIMATIONS CONVERTED
-// ===============================
-
-// FLOAT (replaces --animate-float)
-export const float = {
-  animate: {
-    y: [0, -10, 0],
-  },
-  transition: {
-    duration: 6,
-    repeat: Infinity,
-    ease: "easeInOut",
+  exit: {
+    opacity: 0,
+    x: 24,
+    transition: { duration: 0.18, ease: "easeIn" },
   },
 };
-
-// PULSE SUBTLE (replaces --animate-pulse-subtle)
-// export const pulseSubtle = {
-//   animate: {
-//     opacity: [1, 0.8, 1],
-//   },
-//   transition: {
-//     duration: 4,
-//     repeat: Infinity,
-//     ease: "easeInOut",
-//   },
-// };
-
-// FADE IN (replaces CSS fade-in keyframes)
-export const fadeInSimple = {
-  animate: {
-    opacity: [0, 1],
-    y: [20, 0],
-  },
-  transition: {
-    duration: 0.7,
-    ease: "easeOut",
-  },
-};
-
-// METEOR (replaces --animate-meteor)
-// export const meteor = {
-//   animate: {
-//     rotate: 215,
-//     x: [-0, -500],
-//     opacity: [1, 0],
-//   },
-//   transition: {
-//     duration: 5,
-//     ease: "linear",
-//     repeat: Infinity,
-//   },
-// };
-
-// DELAYED FADE INS (replaces --animate-fade-in-delay-*)
-export const fadeInDelay = (delay) => ({
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.7,
-      delay,
-      ease: "easeOut",
-    },
-  },
-});

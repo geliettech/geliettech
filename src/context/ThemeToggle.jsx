@@ -1,47 +1,16 @@
-import { useState, useEffect } from "react";
 import { IoMdMoon, IoMdSunny } from "react-icons/io";
 import { cn } from "../lib/utils";
+import useTheme from "./useTheme";
 
 const ThemeToggle = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    useEffect(() => {
-        const storedTheme = localStorage.getItem("theme");
-
-        if (storedTheme === "dark") {
-            document.documentElement.classList.add("dark");
-            setIsDarkMode(true);
-        } else if (storedTheme === "light") {
-            document.documentElement.classList.remove("dark");
-            setIsDarkMode(false);
-        } else {
-            // system preference
-            const prefersDark = window.matchMedia(
-                "(prefers-color-scheme: dark)"
-            ).matches;
-
-            document.documentElement.classList.toggle("dark", prefersDark);
-            setIsDarkMode(prefersDark);
-        }
-    }, []);
-
-    const toggleTheme = () => {
-        const newTheme = !isDarkMode;
-
-        setIsDarkMode(newTheme);
-
-        if (newTheme) {
-            document.documentElement.classList.add("dark");
-            localStorage.setItem("theme", "dark");
-        } else {
-            document.documentElement.classList.remove("dark");
-            localStorage.setItem("theme", "light");
-        }
-    };
+    const { isDarkMode, toggleTheme } = useTheme();
 
     return (
     <button
   onClick={toggleTheme}
+  type="button"
+  aria-label={`Switch to ${isDarkMode ? "light" : "dark"} mode`}
+  aria-pressed={isDarkMode}
   className={cn(
     "relative inline-flex h-8 w-15 items-center rounded-full transition-colors duration-300",
     isDarkMode ? "bg-primary" : "bg-secondary/30"

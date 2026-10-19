@@ -48,6 +48,47 @@ export const experiences = [
   },
 ];
 
+export const education = [
+  {
+    qualification: "B.Sc. Computer Science & Informatics",
+    description:
+      "An academic foundation in computer science, software development, and information systems.",
+  },
+];
+
+export const certificates = [
+  {
+    title: "Certificate of Completion - Frontend Development Assessment",
+    issuer: "Tobams Group",
+    issued: "Aug 2026",
+    type: "Certificate",
+  },
+  {
+    title: "Frontend Mentee Cycle 1",
+    issuer: "She Code Africa",
+    issued: "Sep 2025",
+    type: "Badge of Participation",
+  },
+  {
+    title: "National Youth Service",
+    issuer: "National Youth Service Corps",
+    issued: "Apr 2025",
+    type: "Certificate",
+  },
+  {
+    title: "Introduction to Software Engineering and System Design",
+    issuer: "Udemy",
+    issued: "Jul 2024",
+    type: "Certificate",
+  },
+  {
+    title: "Certificate of Completion - Frontend Development",
+    issuer: "Stutern",
+    issued: "Aug 2023",
+    type: "Certificate",
+  },
+];
+
 export const skills = [
   // Frontend
   {
@@ -182,6 +223,24 @@ export const projects = [
     tags: ["React", "TailwindCSS", "Framer Motion"],
     demoUrl: "https://trovica.netlify.app/",
     githubUrl: "https://github.com/geliettech/trovica",
+    role: "Frontend development",
+    highlights: ["Responsive agency experience", "Conversion-focused page design"],
+  },
+  {
+    id: "TOBAMS-LMS",
+    title: "Tobams Group LMS",
+    description:
+      "A responsive landing page for the Tobams Group Learning Management System, built to introduce its learning programs and make it easy for prospective learners to explore the platform.",
+    image: "/images/projects/tobams-lms.jpg",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://tobamsgroup-lms-landingpage.vercel.app",
+    githubUrl: "https://github.com/geliettech/TobamsGroup-LMS-LandingPage",
+    role: "Frontend development · Tobams Group assessment",
+    highlights: [
+      "Responsive layouts across mobile, tablet, and desktop",
+      "Reusable, component-based Next.js architecture",
+      "Clear navigation and learning-program calls to action",
+    ],
   },
   {
     id: "ID-48Q7Z1",
@@ -192,6 +251,8 @@ export const projects = [
     tags: ["Typescript", "React", "TailwindCSS"],
     demoUrl: "https://shortly-pi-coral.vercel.app/",
     githubUrl: "https://github.com/geliettech/shortly",
+    role: "Frontend development",
+    highlights: ["URL validation and error handling", "Persistent shortened links"],
   },
   {
     id: "ID-274374",
@@ -202,6 +263,8 @@ export const projects = [
     tags: ["React", "TailwindCSS"],
     demoUrl: "https://ogechiuhegbu.vercel.app",
     githubUrl: "https://github.com/geliettech/geliettech",
+    role: "Design and development",
+    highlights: ["Responsive portfolio experience", "Project and professional profile showcase"],
   },
   {
     id: "ID-920174",
@@ -212,6 +275,8 @@ export const projects = [
     tags: ["React", "MaterialUI"],
     demoUrl: "https://countries-explorer-byoge.vercel.app",
     githubUrl: "https://github.com/geliettech/countries-explorer",
+    role: "Frontend development",
+    highlights: ["Country search and region filters", "Country detail views and dark mode"],
   },
 ];
 
@@ -219,18 +284,21 @@ export const recommendations = [
   {
     id: 1,
     name: "SuvWe Money",
+    role: "Frontend Mentor · She Code Africa",
     message:
       "OGE, you're exceptional frontend developer. You delivers clean and efficient code, and your attention to detail is outstanding.",
   },
   {
     id: 2,
     name: "Jesufunni",
+    role: "Frontend Lead · Afritech",
     message:
       "The work you did on the student portal dashboard should not go without commendation, you did really well. Very sweet UI.",
   },
   {
     id: 3,
     name: "Smartee",
+    role: "Technical Lead · Afritech",
     message:
       "You did a good Job on platform settings Ogechi. I like the way you implemented the UI and the responsiveness of the design.",
   },

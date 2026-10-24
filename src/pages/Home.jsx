@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import PortfolioStats from "../components/PortfolioStats";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
@@ -22,6 +23,7 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <Hero />
+        <PortfolioStats />
         <About />
         <Skills />
         <Experience />

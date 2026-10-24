@@ -1,16 +1,26 @@
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
-const MEDIUM_API =
-  "https://api.rss2json.com/v1/api.json?rss_url=https://geliettech.medium.com/feed";
-
-
-/**
- * Format date safely
- */
 const formatDate = (date) => {
   if (!date) return "";
-  return new Date(date).toDateString();
+  const parsedDate = new Date(date);
+  return Number.isNaN(parsedDate.getTime()) ? "" : parsedDate.toDateString();
+};
+
+const parseMediumFeed = (xml) => {
+  const document = new DOMParser().parseFromString(xml, "application/xml");
+  if (document.querySelector("parsererror")) {
+    throw new Error("The Medium feed returned invalid XML");
+  }
+
+  return Array.from(document.querySelectorAll("channel > item"))
+    .map((item) => ({
+      guid: item.querySelector("guid")?.textContent?.trim(),
+      title: item.querySelector("title")?.textContent?.trim(),
+      link: item.querySelector("link")?.textContent?.trim(),
+      pubDate: item.querySelector("pubDate")?.textContent?.trim(),
+    }))
+    .filter((article) => article.guid && article.title && article.link);
 };
 
 const Articles = () => {
@@ -19,31 +29,30 @@ const Articles = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    const controller = new AbortController();
     const fetchArticles = async () => {
       try {
-        const response = await fetch(MEDIUM_API);
+        const response = await fetch("/api/medium-feed", {
+          signal: controller.signal,
+        });
 
         if (!response.ok) {
           throw new Error("Failed to fetch articles");
         }
-        const data = await response.json();
-        setArticles(data?.items ?? []);
+        setArticles(parseMediumFeed(await response.text()));
       } catch (err) {
-        console.error(err);
-        setError("Unable to load articles at the moment.");
+        if (err.name !== "AbortError") {
+          console.error(err);
+          setError("Unable to load articles at the moment.");
+        }
       } finally {
-        setLoading(false);
+        if (!controller.signal.aborted) setLoading(false);
       }
     };
 
     fetchArticles();
+    return () => controller.abort();
   }, []);
-
-
-  if (error) {
-    return <p className="text-center py-10 text-red-500">{error}</p>;
-  }
-
 
   return (
     <section id="articles" className="section-shell bg-primary/[0.035]">
@@ -59,6 +68,8 @@ const Articles = () => {
         </header>
         {loading ? (
           <p className="text-center py-10">Loading articles...</p>
+        ) : error ? (
+          <p className="py-10 text-center text-red-500">{error}</p>
         ) : (
           <div className="grid gap-4 md:grid-cols-2">
             {articles.slice(0, 4).map((article) => (
@@ -66,7 +77,6 @@ const Articles = () => {
                 key={article.guid}
                 className="flex h-full flex-col justify-between rounded-2xl border border-border/80 bg-card p-6 text-left shadow-sm transition hover:-translate-y-1 hover:shadow-lg md:p-7"
               >
-
                 {/* Content */}
                 <div className="space-y-3 text-left">
                   <h3 className="line-clamp-2 text-lg font-semibold tracking-tight">
@@ -91,7 +101,20 @@ const Articles = () => {
             ))}
           </div>
         )}
-
+        {!loading && !error && articles.length === 0 && (
+          <p className="py-10 text-center text-muted-foreground">
+            No articles are available right now. Visit{" "}
+            <a
+              href="https://medium.com/@geliettech"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-primary hover:underline"
+            >
+              my Medium profile
+            </a>
+            .
+          </p>
+        )}
       </div>
     </section>
   );

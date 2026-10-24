@@ -6,7 +6,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa6";
 import { fadeUp, fadeUpDelayed } from "../animation/motion";
-import Profile from "../assets/img/about/profile.jpg";
+import Profile from "/images/profile.png";
 
 const Hero = () => (
   <section
@@ -86,11 +86,11 @@ const Hero = () => (
       >
         <div className="absolute -inset-4 rotate-3 rounded-[2rem] border border-primary/15 bg-primary/[0.035]" />
         <div className="relative overflow-hidden rounded-[1.7rem] border border-border bg-card p-2 shadow-[0_28px_90px_-40px_rgba(37,99,235,0.3)]">
-          <div className="relative aspect-[4/4.65] overflow-hidden rounded-[1.25rem] bg-secondary/10">
+          <div className="relative aspect-[4/5.2] overflow-hidden rounded-[1.25rem] bg-secondary/10">
             <img
               src={Profile}
               alt="Ogechi Juliet Uhegbu"
-              className="h-full w-full object-cover object-center"
+              className="h-full w-full object-cover object-[center_20%]"
             />
             <div className="absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-black/90 via-black/55 to-transparent p-6 pt-28 text-left text-white sm:p-7 sm:pt-32">
               <p className="text-lg font-semibold">Ogechi Juliet Uhegbu</p>

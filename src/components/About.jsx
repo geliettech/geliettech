@@ -6,14 +6,10 @@ import {
   FaServer,
   FaWandMagicSparkles,
 } from "react-icons/fa6";
+import { fadeUp, staggerContainer, staggerItem } from "../animation/motion";
 import CV from "../assets/OGECHI_JULIET_UHEGBU_Resume.pdf";
 
 const focusAreas = [
-  {
-    icon: FaCode,
-    title: "Frontend engineering",
-    description: "Building responsive, accessible interfaces with modern web tools.",
-  },
   {
     icon: FaWandMagicSparkles,
     title: "Product-minded design",
@@ -25,6 +21,11 @@ const focusAreas = [
     description: "Creating reusable components that stay maintainable as products grow.",
   },
   {
+    icon: FaCode,
+    title: "Frontend engineering",
+    description: "Building responsive, accessible interfaces with modern web tools.",
+  },
+  {
     icon: FaServer,
     title: "Full-stack development",
     description:
@@ -33,13 +34,13 @@ const focusAreas = [
 ];
 
 const About = () => (
-  <section id="about" className="section-shell">
+    <section id="about" className="section-shell">
     <div className="container mx-auto max-w-6xl px-4 md:px-8">
       <Motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        variants={fadeUp}
+        initial="hidden"
+        whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        transition={{ duration: 0.5 }}
       >
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <div className="text-left">
@@ -73,19 +74,20 @@ const About = () => (
               </a>
             </div>
           </div>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {focusAreas.map((area, index) => {
+          <Motion.div
+            className="grid gap-4 sm:grid-cols-2"
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
+            {focusAreas.map((area) => {
               const Icon = area.icon;
               return (
                 <Motion.article
                   key={area.title}
-                  initial={{ opacity: 0, y: 16 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: index * 0.08 }}
-                  className={`rounded-2xl border border-border/80 bg-card p-6 text-left shadow-sm ${
-                    index === 0 ? "sm:col-span-2" : ""
-                  }`}
+                  variants={staggerItem}
+                  className="min-h-[190px] rounded-2xl border border-border/80 bg-card p-6 text-left shadow-sm"
                 >
                   <span className="mb-6 inline-flex rounded-xl bg-primary/10 p-3 text-primary">
                     <Icon aria-hidden="true" size={19} />
@@ -97,7 +99,7 @@ const About = () => (
                 </Motion.article>
               );
             })}
-          </div>
+          </Motion.div>
         </div>
       </Motion.div>
     </div>

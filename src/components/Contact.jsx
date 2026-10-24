@@ -3,7 +3,7 @@ import { SiMedium } from "react-icons/si";
 import { cn } from "../lib/utils";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import WhatsappQRCode from "../assets/img/whatsappQRCode.jpg";
+import WhatsappQRCode from "../assets/whatsappQRCode.jpg";
 
 
 const INITIAL_VALUE = {

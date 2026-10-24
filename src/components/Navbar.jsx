@@ -69,7 +69,7 @@ const Navbar = () => {
       )
       .map((project) => ({
         name: project.title,
-        link: "#projects",
+        link: `/projects/${project.id}`,
         type: "Project",
       }));
     return [...sections, ...matchingProjects].slice(0, 6);

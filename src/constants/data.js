@@ -215,10 +215,29 @@ export const skills = [
 
 export const projects = [
   {
+    id: "FINART",
+    title: "Finart",
+    type: "FinTech",
+    description:
+      "A secured AI-focused finance management platform that enables users to track income, expenses, and investments, manage category budgets and recurring schedules, analyze spending patterns, and export transaction reports as CSV files. It also features an AI financial advisor interface for asking financial questions and analyzing dashboard data.",
+    image: "/images/projects/finart.png",
+    tags: ["React", "JavaScript", "Tailwind CSS", "Firebase"],
+    demoUrl: "https://finart-platform.vercel.app",
+    githubUrl: "https://github.com/geliettech/finart",
+    role: "Frontend development",
+    status: "In progress",
+    highlights: [
+      "Track transactions, budgets, and recurring schedules",
+      "Review analytics and export transaction reports as CSV",
+      "AI financial advisor interface for questions and dashboard analysis",
+    ],
+  },
+  {
     id: "A7F3K9X2",
     title: "Trovica",
+    type: "Business",
     description:
-      "A modern agency website to showcase digital solutions, increase online business visibility, and improve customer engagement. It features smooth navigation, responsive layouts, and a conversion-focused design to attract and retain clients.",
+      "A modern agency business website to showcase digital solutions, increase online business visibility, and improve customer engagement. It features smooth navigation, responsive layouts, and a conversion-focused design to attract and retain clients.",
     image: "/images/projects/trovica.png",
     tags: ["React", "TailwindCSS", "Framer Motion"],
     demoUrl: "https://trovica.netlify.app/",
@@ -228,9 +247,10 @@ export const projects = [
   },
   {
     id: "TOBAMS-LMS",
-    title: "Tobams Group LMS",
+    title: "TobamsGroup LMS",
+    type: "EdTech",
     description:
-      "A responsive landing page for the Tobams Group Learning Management System, built to introduce its learning programs and make it easy for prospective learners to explore the platform.",
+      "A responsive Learning Management System (LMS) landing page built from the provided UI/UX design, showcasing learning programs through reusable components, intuitive navigation, and strategic calls to action. It ensured a consistent user experience across mobile, tablet, and desktop devices.",
     image: "/images/projects/tobams-lms.jpg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     demoUrl: "https://tobamsgroup-lms-landingpage.vercel.app",
@@ -245,6 +265,7 @@ export const projects = [
   {
     id: "ID-48Q7Z1",
     title: "Shortly",
+    type: "SaaS",
     description:
       "A responsive landing page that allows users to shorten long URLs, instantly copy shortened links, and retain shortened URLs across page reloads. It provides a smooth and efficient user experience with LocalStorage persistence, form validation, and error handling.",
     image: "/images/projects/Shortly.jpg",
@@ -257,6 +278,7 @@ export const projects = [
   {
     id: "ID-274374",
     title: "geliettech",
+    type: "Portfolio",
     description:
       "A modern portfolio website that serves as a central hub where recruiters, clients, and collaborators can easily explore my professional profile including my skills and experience, and connect with me. It provides a conversion-focused design to attract clients.",
     image: "/images/projects/ogechiuhegbu.png",
@@ -269,6 +291,7 @@ export const projects = [
   {
     id: "ID-920174",
     title: "Countries Explorer",
+    type: "TravelTech",
     description:
       "A responsive web application that allows users to search for any country, filter countries by continent, and view detailed information about each country with a dark mode toggle. It provides a clean, intuitive interface for quickly accessing global data.",
     image: "/images/projects/rest-countries.png",

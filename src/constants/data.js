@@ -27,6 +27,11 @@ export const experiences = [
     period: "May 2025 - Present",
   },
   {
+    role: "Frontend Engineer",
+    company: "Twixle Solutions Limited",
+    period: "Aug 2026 - Nov 2026",
+  },
+  {
     role: "Frontend Developer (Next.js)",
     company: "Afritech Digital Hub",
     period: "Oct 2025 – May 2026",

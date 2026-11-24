@@ -46,26 +46,6 @@
 
 ---
 
-## 📌 Ongoing Featured Projects
-
-### 1. ☁️ Twixle — Multi-Tenant Cloud Cost Optimization Platform
-
-- **Role:** Frontend Developer
-- > 🔒 Private Project
-
-### 2. 💇🏽‍♀️ CeecLuxuryHair — E-commerce Hair Store
-
-- **Role:** Full-Stack Developer
-- > 🔒 Private Project
-
-### 3. 🔌 Hackathon API
-
-- **Role:** Backend Developer
-- A scalable hackathon role base API Auth where Admins and Participants have different permissions.
-- **Tech:** `NestJS` · `TypeScript` · `PostgreSQL` · `REST API`
-
----
-
 ## 📈📊 GitHub Activity & Statistics
 
 <p align="center">

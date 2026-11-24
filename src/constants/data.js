@@ -11,11 +11,9 @@ import {
   SiTailwindcss,
   SiMui,
   SiPython,
-  SiDjango,
   SiFigma, SiNestjs, SiPostgresql
 } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa6";
-import { DiSqllite } from "react-icons/di";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoFirebase } from "react-icons/io5";
 import { RiSupabaseLine } from "react-icons/ri";
@@ -229,12 +227,30 @@ export const projects = [
     tags: ["React", "JavaScript", "Tailwind CSS", "Firebase"],
     demoUrl: "https://finart-platform.vercel.app",
     githubUrl: "https://github.com/geliettech/finart",
-    role: "Frontend development",
+    role: "Frontend development · BaaS integration",
     status: "In progress",
     highlights: [
       "Track transactions, budgets, and recurring schedules",
       "Review analytics and export transaction reports as CSV",
       "AI financial advisor interface for questions and dashboard analysis",
+    ],
+  },
+  {
+    id: "TRACK",
+    title: "Track",
+    type: "Productivity",
+    description:
+      "A responsive task management application with user authentication for planning, prioritizing, and tracking work across projects. It combines an overview dashboard with priority and completion metrics, project workspaces, and an interactive task board, with tasks stored in a database and synced across sessions.",
+    image: "/images/projects/track.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    demoUrl: "https://track-t2.vercel.app",
+    githubUrl: "https://github.com/geliettech/track",
+    role: "Frontend development · BaaS integration",
+    status: "In progress",
+    highlights: [
+      "Overview dashboard with priority, completion, and due-date metrics",
+      "Interactive task board with projects and statuses",
+      "Responsive layout with database-backed task storage",
     ],
   },
   {

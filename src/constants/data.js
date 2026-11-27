@@ -314,9 +314,9 @@ export const projects = [
     title: "Countries Explorer",
     type: "TravelTech",
     description:
-      "A responsive web application that allows users to search for any country, filter countries by continent, and view detailed information about each country with a dark mode toggle. It provides a clean, intuitive interface for quickly accessing global data.",
+      "A responsive single-page app powered by the REST Countries API that lets users search for any country, filter by region, and explore detailed country profiles with border-country navigation. Built with a persisted light/dark theme toggle, graceful error and retry states, and an offline mock-data fallback for a reliable global-data experience.",
     image: "/images/projects/rest-countries.png",
-    tags: ["React", "MaterialUI"],
+    tags: ["React", "Vite", "MaterialUI", "Axios", "React Router", "CSS Modules"],
     demoUrl: "https://countries-explorer-byoge.vercel.app",
     githubUrl: "https://github.com/geliettech/countries-explorer",
     role: "Frontend development",
